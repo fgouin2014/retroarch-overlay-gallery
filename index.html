@@ -18,17 +18,19 @@
                 <h1>Overlays</h1>
                 <input type="text" id="overlay-search" placeholder="Rechercher...">
             </header>
-            <div class="adjustments-section">
-                <h3>Ajustements Écran</h3>
-                <div class="control-group">
-                    <label>Zoom (<span id="zoom-val">100</span>%)</label>
-                    <input type="range" id="input-zoom" min="20" max="200" value="100">
+            <div class="adjustments-section collapsed">
+                <h3 id="adjustments-toggle">Ajustements Écran <span class="chevron">▼</span></h3>
+                <div id="adjustments-content" class="about-content">
+                    <div class="control-group">
+                        <label>Zoom (<span id="zoom-val">100</span>%)</label>
+                        <input type="range" id="input-zoom" min="20" max="200" value="100">
+                    </div>
+                    <div class="control-group">
+                        <label>Position Y (<span id="offset-val">0</span>%)</label>
+                        <input type="range" id="input-offset" min="-100" max="100" value="0">
+                    </div>
+                    <button id="reset-adjustments" class="btn-reset">Réinitialiser</button>
                 </div>
-                <div class="control-group">
-                    <label>Position Y (<span id="offset-val">0</span>%)</label>
-                    <input type="range" id="input-offset" min="-100" max="100" value="0">
-                </div>
-                <button id="reset-adjustments" class="btn-reset">Réinitialiser</button>
             </div>
 
             <div id="gallery-list" class="gallery">

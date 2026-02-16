@@ -49,6 +49,15 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
+        // Adjustments section toggle
+        const adjToggle = document.getElementById('adjustments-toggle');
+        const adjSection = document.querySelector('.adjustments-section');
+        if (adjToggle && adjSection) {
+            adjToggle.addEventListener('click', () => {
+                adjSection.classList.toggle('collapsed');
+            });
+        }
+
         // Adjustment listeners
         inputZoom.addEventListener('input', (e) => {
             adjustments.zoom = parseInt(e.target.value);
