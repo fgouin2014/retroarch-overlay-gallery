@@ -74,9 +74,14 @@ def scan_overlays(root_dir):
                         })
 
                     if modes:
+                        category = "Standard"
+                        if "extra/Touch-Overlays" in cfg_dir:
+                            category = "Extras"
+
                         overlays.append({
                             "name": os.path.splitext(file)[0].replace('-', ' ').title(),
                             "path": rel_path.replace('\\', '/'),
+                            "category": category,
                             "modes": modes,
                             "content": content
                         })

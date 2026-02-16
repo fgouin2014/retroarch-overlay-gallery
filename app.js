@@ -109,18 +109,42 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function renderGallery(items) {
         galleryList.innerHTML = '';
+
+        // Group by category
+        const groups = {};
         items.forEach(item => {
-            const div = document.createElement('div');
-            div.className = 'gallery-item';
-            if (activeOverlay && activeOverlay.path === item.path) div.classList.add('active');
+            const cat = item.category || 'Standard';
+            if (!groups[cat]) groups[cat] = [];
+            groups[cat].push(item);
+        });
 
-            div.innerHTML = `
-                <h4>${item.name}</h4>
-                <span>${item.path.split('/').pop()}</span>
-            `;
+        // Sort categories (Standard first, then Extras)
+        const sortedCats = Object.keys(groups).sort((a, b) => {
+            if (a === 'Standard') return -1;
+            if (b === 'Standard') return 1;
+            return a.localeCompare(b);
+        });
 
-            div.addEventListener('click', () => selectOverlay(item));
-            galleryList.appendChild(div);
+        sortedCats.forEach(cat => {
+            // Category header
+            const header = document.createElement('div');
+            header.className = 'gallery-category';
+            header.textContent = cat;
+            galleryList.appendChild(header);
+
+            groups[cat].forEach(item => {
+                const div = document.createElement('div');
+                div.className = 'gallery-item';
+                if (activeOverlay && activeOverlay.path === item.path) div.classList.add('active');
+
+                div.innerHTML = `
+                    <h4>${item.name}</h4>
+                    <span>${item.path.split('/').pop()}</span>
+                `;
+
+                div.addEventListener('click', () => selectOverlay(item));
+                galleryList.appendChild(div);
+            });
         });
     }
 

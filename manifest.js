@@ -2,6 +2,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Pro Controller",
         "path": "pro-controller.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -31,6 +32,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Retro Classic",
         "path": "extra/retro-classic.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -60,6 +62,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gb_Portrait_Beige",
         "path": "extra/Touch-Overlays/Phone/GB/gb_portrait_beige.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Gb_phone_portrait_beige",
@@ -100,6 +103,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gba_Phone_Red",
         "path": "extra/Touch-Overlays/Phone/GBA/gba_phone_red.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Gba_phone_portrait_red",
@@ -140,6 +144,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gba_Phone_Yellow",
         "path": "extra/Touch-Overlays/Phone/GBA/gba_phone_yellow.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Gba_phone_portrait_yellow",
@@ -180,6 +185,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gba_Phone_Yellow_Animated",
         "path": "extra/Touch-Overlays/Phone/GBA/gba_phone_yellow_animated.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Gba_phone_portrait_yellow_animated",
@@ -220,6 +226,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gbc_Phone_Animated_Blue",
         "path": "extra/Touch-Overlays/Phone/GBC/gbc_phone_animated_blue.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Gbc_phone_portrait_animated_blue",
@@ -260,6 +267,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gbc_Phone_Yellow",
         "path": "extra/Touch-Overlays/Phone/GBC/gbc_phone_yellow.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Gbc_phone_portrait_yellow",
@@ -300,6 +308,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Genesis_Grey",
         "path": "extra/Touch-Overlays/Phone/GENESIS/genesis_grey.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Genesis_phone_portrait_grey",
@@ -340,6 +349,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "N64_Phone_Green",
         "path": "extra/Touch-Overlays/Phone/N64/n64_phone_green.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "N64_phone_portrait_green",
@@ -380,6 +390,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nds_Phone_Black",
         "path": "extra/Touch-Overlays/Phone/NDS/nds_phone_black.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Nds_phone_portrait_black",
@@ -420,6 +431,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nds_Phone_White",
         "path": "extra/Touch-Overlays/Phone/NDS/nds_phone_white.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Nds_phone_portrait_white",
@@ -460,6 +472,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nds_Phone_White_Animated",
         "path": "extra/Touch-Overlays/Phone/NDS/nds_phone_white_animated.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Nds_phone_portrait_white",
@@ -500,6 +513,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nes_Phone_Beige",
         "path": "extra/Touch-Overlays/Phone/NES/nes_phone_beige.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Nes_phone_portrait_beige",
@@ -540,6 +554,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Psp_Phone_White",
         "path": "extra/Touch-Overlays/Phone/PSP/psp_phone_white.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Psp_phone_portrait_white",
@@ -580,6 +595,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Psx_Phone_Beige",
         "path": "extra/Touch-Overlays/Phone/PSX/psx_phone_beige.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Psx_phone_portrait_beige",
@@ -620,6 +636,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Psx_Phone_Transparent",
         "path": "extra/Touch-Overlays/Phone/PSX/psx_phone_transparent.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Phone_portrait_pause",
@@ -649,6 +666,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Saturn_Black",
         "path": "extra/Touch-Overlays/Phone/SATURN/saturn_black.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Saturn_phone_portrait_black",
@@ -700,6 +718,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Snes_Phone_Purple",
         "path": "extra/Touch-Overlays/Phone/SNES/snes_phone_purple.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Snes_phone_portrait_purple",
@@ -740,6 +759,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gb_Portrait_Beige",
         "path": "extra/Touch-Overlays/Phone-Taller/GB/gb_portrait_beige.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Gb_phone_portrait_beige",
@@ -780,6 +800,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gba_Phone_Red",
         "path": "extra/Touch-Overlays/Phone-Taller/GBA/gba_phone_red.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Gba_phone_portrait_red",
@@ -820,6 +841,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gba_Phone_Yellow",
         "path": "extra/Touch-Overlays/Phone-Taller/GBA/gba_phone_yellow.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Gba_phone_portrait_yellow",
@@ -860,6 +882,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gba_Phone_Yellow_Animated",
         "path": "extra/Touch-Overlays/Phone-Taller/GBA/gba_phone_yellow_animated.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Gba_phone_portrait_yellow_animated",
@@ -900,6 +923,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gbc_Phone_Animated_Blue",
         "path": "extra/Touch-Overlays/Phone-Taller/GBC/gbc_phone_animated_blue.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Gbc_phone_portrait_animated_blue",
@@ -940,6 +964,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gbc_Phone_Yellow",
         "path": "extra/Touch-Overlays/Phone-Taller/GBC/gbc_phone_yellow.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Gbc_phone_portrait_yellow",
@@ -980,6 +1005,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Genesis_Grey",
         "path": "extra/Touch-Overlays/Phone-Taller/GENESIS/genesis_grey.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Genesis_phone_portrait_grey",
@@ -1020,6 +1046,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "N64_Phone_Green",
         "path": "extra/Touch-Overlays/Phone-Taller/N64/n64_phone_green.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "N64_phone_portrait_green",
@@ -1060,6 +1087,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nds_Phone_Black",
         "path": "extra/Touch-Overlays/Phone-Taller/NDS/nds_phone_black.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Nds_phone_portrait_black",
@@ -1100,6 +1128,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nds_Phone_White",
         "path": "extra/Touch-Overlays/Phone-Taller/NDS/nds_phone_white.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Nds_phone_portrait_white",
@@ -1140,6 +1169,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nds_Phone_White_Animated",
         "path": "extra/Touch-Overlays/Phone-Taller/NDS/nds_phone_white_animated.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Nds_phone_portrait_white",
@@ -1180,6 +1210,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nes_Phone_Beige",
         "path": "extra/Touch-Overlays/Phone-Taller/NES/nes_phone_beige.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Nes_phone_portrait_beige",
@@ -1220,6 +1251,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Psp_Phone_White",
         "path": "extra/Touch-Overlays/Phone-Taller/PSP/psp_phone_white.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Psp_phone_portrait_white",
@@ -1260,6 +1292,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Psx_Phone_Beige",
         "path": "extra/Touch-Overlays/Phone-Taller/PSX/psx_phone_beige.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Psx_phone_portrait_beige",
@@ -1300,6 +1333,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Psx_Phone_Transparent",
         "path": "extra/Touch-Overlays/Phone-Taller/PSX/psx_phone_transparent.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Phone_portrait_pause",
@@ -1329,6 +1363,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Saturn_Black",
         "path": "extra/Touch-Overlays/Phone-Taller/SATURN/saturn_black.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Saturn_phone_portrait_black",
@@ -1380,6 +1415,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Snes_Phone_Purple",
         "path": "extra/Touch-Overlays/Phone-Taller/SNES/snes_phone_purple.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Snes_phone_portrait_purple",
@@ -1420,6 +1456,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Snes_Phone_Transparent",
         "path": "extra/Touch-Overlays/Phone-Taller/SNES/snes_phone_transparent.cfg",
+        "category": "Extras",
         "modes": [
             {
                 "name": "Snes_phone_portrait_transparent",
@@ -1460,6 +1497,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "720 Med",
         "path": "gamepads/720-med/720-med.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Landscape",
@@ -1489,6 +1527,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "6 Button Fighter",
         "path": "gamepads/arcade-anim/6-button-fighter.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "6-button-fighter",
@@ -1507,6 +1546,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Neogeo",
         "path": "gamepads/arcade-anim/neogeo.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Neogeo",
@@ -1525,6 +1565,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Cdi",
         "path": "gamepads/cdi_anim_portrait/cdi.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Cdi-portrait",
@@ -1543,6 +1584,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Flat Base",
         "path": "gamepads/flat/old/flat-base.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Ztestld",
@@ -1572,6 +1614,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Flat Gb Wip",
         "path": "gamepads/flat/old/flat-gb-wip.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -1590,6 +1633,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Flat N64",
         "path": "gamepads/flat/old/flat-n64.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Flat64d",
@@ -1619,6 +1663,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Flat Ws",
         "path": "gamepads/flat/old/flat-ws.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -1637,6 +1682,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Flip_Phone",
         "path": "gamepads/flip_phone/flip_phone.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Flip_phone_portrait",
@@ -1655,6 +1701,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gba Control Purple",
         "path": "gamepads/gba-anim_landscape/gba-control-purple.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Gba_control",
@@ -1673,6 +1720,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Arctic",
         "path": "gamepads/gba_landscape_6x/arctic.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Landscape",
@@ -1691,6 +1739,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Black",
         "path": "gamepads/gba_landscape_6x/black.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Landscape",
@@ -1709,6 +1758,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Indigo",
         "path": "gamepads/gba_landscape_6x/indigo.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Landscape",
@@ -1727,6 +1777,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Orange",
         "path": "gamepads/gba_landscape_6x/orange.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Landscape",
@@ -1745,6 +1796,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gb_Big",
         "path": "gamepads/gb_anim_portrait/gb_big.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Gameboy",
@@ -1774,6 +1826,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "720 Med",
         "path": "gamepads/old/720-med.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -1803,6 +1856,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Box Gba With Diagonals",
         "path": "gamepads/old/box-gba-with-diagonals.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -1854,6 +1908,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Box Gba",
         "path": "gamepads/old/box-gba.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -1905,6 +1960,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Box Ps With Diagonals",
         "path": "gamepads/old/box-ps-with-diagonals.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -1956,6 +2012,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Box Psx",
         "path": "gamepads/old/box-psx.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -2007,6 +2064,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gameboy Landscape",
         "path": "gamepads/old/gameboy-landscape.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -2047,6 +2105,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gameboy Portrait",
         "path": "gamepads/old/gameboy-portrait.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -2087,6 +2146,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Genesis3 Landscape",
         "path": "gamepads/old/genesis3-landscape.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -2127,6 +2187,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Genesis3 Portrait",
         "path": "gamepads/old/genesis3-portrait.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -2167,6 +2228,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Genesis6 Landscape",
         "path": "gamepads/old/genesis6-landscape.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -2207,6 +2269,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Genesis6 Portrait",
         "path": "gamepads/old/genesis6-portrait.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -2247,6 +2310,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Lynx Landscape",
         "path": "gamepads/old/lynx-landscape.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -2265,6 +2329,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nes Landscape",
         "path": "gamepads/old/nes-landscape.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -2305,6 +2370,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nes Portrait",
         "path": "gamepads/old/nes-portrait.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -2345,6 +2411,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Psx Landscape",
         "path": "gamepads/old/psx-landscape.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -2385,6 +2452,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Psx Portrait",
         "path": "gamepads/old/psx-portrait.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -2425,6 +2493,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Snes Landscape",
         "path": "gamepads/old/snes-landscape.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -2465,6 +2534,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Snes Portrait",
         "path": "gamepads/old/snes-portrait.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -2505,6 +2575,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Basic_Overlay",
         "path": "gamepads/old/Low-resolution/basic_overlay.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -2545,6 +2616,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Basic_Overlay_Portrait",
         "path": "gamepads/old/Low-resolution/basic_overlay_portrait.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -2585,6 +2657,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Opium_2",
         "path": "gamepads/old/Low-resolution/opium_2.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -2625,6 +2698,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Opium_3",
         "path": "gamepads/old/Low-resolution/opium_3.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -2665,6 +2739,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Opium_4",
         "path": "gamepads/old/Low-resolution/opium_4.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -2705,6 +2780,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Opium_5",
         "path": "gamepads/old/Low-resolution/opium_5.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -2745,6 +2821,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Opium_5B",
         "path": "gamepads/old/Low-resolution/opium_5b.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -2785,6 +2862,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Opium_6",
         "path": "gamepads/old/Low-resolution/opium_6.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -2825,6 +2903,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Opium_7",
         "path": "gamepads/old/Low-resolution/opium_7.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
@@ -2865,6 +2944,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Opium_8",
         "path": "gamepads/old/Low-resolution/opium_8.cfg",
+        "category": "Standard",
         "modes": [
             {
                 "name": "Mode 0",
