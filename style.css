@@ -315,11 +315,10 @@ body {
 
 /* Specific alignment for portrait handhelds */
 .device-frame.portrait .game-bg {
-    top: 5%;
-    /* Align to top */
+    top: 2%;
     transform: translate(-50%, 0);
-    height: 60%;
-    /* Take less space to stay at top */
+    width: 95%;
+    height: 75%;
 }
 
 #overlay-img {
