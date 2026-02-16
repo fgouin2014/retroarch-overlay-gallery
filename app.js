@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const cfgDisplay = document.getElementById('cfg-display');
     const currentName = document.getElementById('current-name');
 
-    const modeContainer = document.querySelector('.orientation-toggle');
+    const modeSelect = document.getElementById('mode-select');
     let activeModeIndex = 0;
 
     let allOverlays = [];
@@ -22,6 +22,12 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             galleryList.innerHTML = '<p class="error">Variable OVERLAY_MANIFEST non trouvée. Avez-vous lancé scan.py ?</p>';
         }
+
+        // Add dropdown change listener
+        modeSelect.addEventListener('change', (e) => {
+            activeModeIndex = parseInt(e.target.value);
+            updatePreview();
+        });
     }
 
     function renderGallery(items) {
@@ -51,21 +57,15 @@ document.addEventListener('DOMContentLoaded', () => {
             el.classList.toggle('active', el.querySelector('h4').textContent === item.name);
         });
 
-        // Generate mode buttons
-        modeContainer.innerHTML = '';
+        // Populate dropdown
+        modeSelect.innerHTML = '';
         item.modes.forEach((mode, index) => {
-            const btn = document.createElement('button');
-            btn.textContent = mode.name;
-            btn.classList.toggle('active', index === activeModeIndex);
-            btn.addEventListener('click', () => {
-                activeModeIndex = index;
-                document.querySelectorAll('.orientation-toggle button').forEach((b, i) => {
-                    b.classList.toggle('active', i === activeModeIndex);
-                });
-                updatePreview();
-            });
-            modeContainer.appendChild(btn);
+            const option = document.createElement('option');
+            option.value = index;
+            option.textContent = mode.name;
+            modeSelect.appendChild(option);
         });
+        modeSelect.value = 0;
 
         // Use embedded CFG content
         cfgDisplay.textContent = item.content || 'Aucune donnée disponible dans ce fichier .cfg';
