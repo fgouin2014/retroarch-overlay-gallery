@@ -90,6 +90,8 @@ def scan_overlays(root_dir):
                         category = "Standard"
                         if "extra/Touch-Overlays" in cfg_dir:
                             category = "Extras"
+                        elif "gamepads" in cfg_dir:
+                            category = "Gamepads"
 
                         overlays.append({
                             "name": os.path.splitext(file)[0].replace('-', ' ').title(),

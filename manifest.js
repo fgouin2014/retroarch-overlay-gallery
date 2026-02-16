@@ -1904,7 +1904,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "720 Med",
         "path": "gamepads/720-med/720-med.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -1934,7 +1934,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Arcade",
         "path": "gamepads/arcade/arcade.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "6-button-landscape",
@@ -2008,7 +2008,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "6 Button Fighter",
         "path": "gamepads/arcade-anim/6-button-fighter.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "6-button-fighter",
@@ -2027,7 +2027,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Neogeo",
         "path": "gamepads/arcade-anim/neogeo.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Neogeo",
@@ -2046,7 +2046,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Arcade Auto",
         "path": "gamepads/arcade-auto/arcade-auto.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "6-button-landscape",
@@ -2120,7 +2120,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Arcade Minimal",
         "path": "gamepads/arcade-minimal/arcade-minimal.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "6-button-landscape",
@@ -2194,7 +2194,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Arcade Retroplay 1 2 Good",
         "path": "gamepads/arcade-retroplay/arcade-retroplay-1-2-good.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "2-button-landscape",
@@ -2290,7 +2290,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Arcade Retroplay 1 2",
         "path": "gamepads/arcade-retroplay/arcade-retroplay-1-2.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "2-button-landscape",
@@ -2364,7 +2364,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Arcade Retroplay",
         "path": "gamepads/arcade-retroplay/arcade-retroplay.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "6-button-landscape",
@@ -2526,7 +2526,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Cdi",
         "path": "gamepads/cdi_anim_portrait/cdi.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Cdi-portrait",
@@ -2545,7 +2545,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Dual Shock",
         "path": "gamepads/dual-shock/dual-shock.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -2597,7 +2597,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Psx Black",
         "path": "gamepads/dual-shock/psx-black.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -2649,7 +2649,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Example",
         "path": "gamepads/example/example.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -2668,7 +2668,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Arcade",
         "path": "gamepads/flat/arcade.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-4",
@@ -2775,7 +2775,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Atari2600",
         "path": "gamepads/flat/atari2600.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -2816,7 +2816,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Atari7800",
         "path": "gamepads/flat/atari7800.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -2879,7 +2879,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Atari_Lynx",
         "path": "gamepads/flat/atari_lynx.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-gb-b",
@@ -2942,7 +2942,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Cave_Story",
         "path": "gamepads/flat/cave_story.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -2983,7 +2983,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Cps",
         "path": "gamepads/flat/cps.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-6",
@@ -3024,7 +3024,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Dreamcast",
         "path": "gamepads/flat/dreamcast.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -3087,7 +3087,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gameboy",
         "path": "gamepads/flat/gameboy.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -3161,7 +3161,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gamecube",
         "path": "gamepads/flat/gamecube.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -3202,7 +3202,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gba",
         "path": "gamepads/flat/gba.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -3386,7 +3386,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Genesis",
         "path": "gamepads/flat/genesis.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "3-button-landscape",
@@ -3460,7 +3460,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Genesis_And_Sms",
         "path": "gamepads/flat/genesis_and_sms.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "3-button-landscape",
@@ -3567,7 +3567,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Neogeo",
         "path": "gamepads/flat/neogeo.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-4",
@@ -3696,7 +3696,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Neogeo_Pocket",
         "path": "gamepads/flat/neogeo_pocket.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -3770,7 +3770,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nes",
         "path": "gamepads/flat/nes.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -3910,7 +3910,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nintendo64",
         "path": "gamepads/flat/nintendo64.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape_d-pad",
@@ -3984,7 +3984,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "One Handed V1",
         "path": "gamepads/flat/one-handed-v1.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Dpad",
@@ -4047,7 +4047,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "One Handed V2 Left",
         "path": "gamepads/flat/one-handed-v2-left.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Dpad",
@@ -4099,7 +4099,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "One Handed V2",
         "path": "gamepads/flat/one-handed-v2.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Dpad",
@@ -4151,7 +4151,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Palm",
         "path": "gamepads/flat/palm.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Palm",
@@ -4181,7 +4181,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Pc Fx",
         "path": "gamepads/flat/pc-fx.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -4222,7 +4222,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Pokemini",
         "path": "gamepads/flat/pokemini.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -4296,7 +4296,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Psp",
         "path": "gamepads/flat/psp.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -4359,7 +4359,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Psx Fast",
         "path": "gamepads/flat/psx-fast.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-b",
@@ -4433,7 +4433,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Psx Simple",
         "path": "gamepads/flat/psx-simple.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -4463,7 +4463,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Psx",
         "path": "gamepads/flat/psx.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -4625,7 +4625,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Retropad Fast Forward",
         "path": "gamepads/flat/retropad-fast-forward.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-b",
@@ -4699,7 +4699,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Retropad Fast",
         "path": "gamepads/flat/retropad-fast.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-b",
@@ -4773,7 +4773,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Retropad",
         "path": "gamepads/flat/retropad.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -4935,7 +4935,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Saturn",
         "path": "gamepads/flat/saturn.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -4976,7 +4976,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Sms",
         "path": "gamepads/flat/sms.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -5039,7 +5039,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Snes",
         "path": "gamepads/flat/snes.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -5102,7 +5102,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Turbografx 16",
         "path": "gamepads/flat/turbografx-16.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -5165,7 +5165,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Turbografx 16_6 Button",
         "path": "gamepads/flat/turbografx-16_6-button.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -5261,7 +5261,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Virtualboy",
         "path": "gamepads/flat/virtualboy.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -5302,7 +5302,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Wonderswan",
         "path": "gamepads/flat/wonderswan.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -5343,7 +5343,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Flat Base",
         "path": "gamepads/flat/old/flat-base.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Ztestld",
@@ -5373,7 +5373,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Flat Gb Wip",
         "path": "gamepads/flat/old/flat-gb-wip.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -5392,7 +5392,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Flat N64",
         "path": "gamepads/flat/old/flat-n64.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Flat64d",
@@ -5422,7 +5422,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Flat Ws",
         "path": "gamepads/flat/old/flat-ws.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -5441,7 +5441,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Flip_Phone",
         "path": "gamepads/flip_phone/flip_phone.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Flip_phone_portrait",
@@ -5460,7 +5460,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gameboy",
         "path": "gamepads/gameboy/gameboy.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -5512,7 +5512,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gba",
         "path": "gamepads/gba/gba.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -5564,7 +5564,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gba Control Purple",
         "path": "gamepads/gba-anim_landscape/gba-control-purple.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Gba_control",
@@ -5583,7 +5583,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gba Grey",
         "path": "gamepads/gba-grey/gba-grey.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -5635,7 +5635,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gba",
         "path": "gamepads/gba_easy_touch/gba.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Portrait",
@@ -5819,7 +5819,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gba_Dpad_Fix",
         "path": "gamepads/gba_easy_touch/gba_dpad_fix.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Portrait",
@@ -6003,7 +6003,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Arctic",
         "path": "gamepads/gba_landscape_6x/arctic.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -6022,7 +6022,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Black",
         "path": "gamepads/gba_landscape_6x/black.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -6041,7 +6041,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Indigo",
         "path": "gamepads/gba_landscape_6x/indigo.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -6060,7 +6060,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Orange",
         "path": "gamepads/gba_landscape_6x/orange.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -6079,7 +6079,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gb_Big",
         "path": "gamepads/gb_anim_portrait/gb_big.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Gameboy",
@@ -6109,7 +6109,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Genesis",
         "path": "gamepads/genesis/genesis.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "6-button-landscape",
@@ -6183,7 +6183,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Dos",
         "path": "gamepads/lite/DOS.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "None",
@@ -6279,7 +6279,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Dos_2",
         "path": "gamepads/lite/DOS_2.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "None",
@@ -6375,7 +6375,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Dualshock",
         "path": "gamepads/lite/DualShock.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "None",
@@ -6471,7 +6471,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Dualshock_2",
         "path": "gamepads/lite/DualShock_2.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Left_norm",
@@ -6567,7 +6567,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Dualshock_Full",
         "path": "gamepads/lite/DualShock_Full.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "None",
@@ -6663,7 +6663,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Dualshock_Full2",
         "path": "gamepads/lite/DualShock_Full2.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Left_norm",
@@ -6759,7 +6759,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Dualshock_Mix",
         "path": "gamepads/lite/DualShock_Mix.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "None",
@@ -6855,7 +6855,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gba",
         "path": "gamepads/lite/GBA.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -6885,7 +6885,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gba_2",
         "path": "gamepads/lite/GBA_2.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -6915,7 +6915,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nds",
         "path": "gamepads/lite/NDS.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Gamepad1",
@@ -7011,7 +7011,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Psp",
         "path": "gamepads/lite/PSP.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Digital",
@@ -7063,7 +7063,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Psx",
         "path": "gamepads/lite/PSX.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -7093,7 +7093,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Psx_Frameadvance",
         "path": "gamepads/lite/PSX_FrameAdvance.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -7123,7 +7123,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Snes",
         "path": "gamepads/lite/SNES.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -7153,7 +7153,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Snes_2",
         "path": "gamepads/lite/SNES_2.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -7183,7 +7183,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "N64",
         "path": "gamepads/n64/n64.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -7235,7 +7235,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "N64",
         "path": "gamepads/n64/old/n64.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Analog-landscape",
@@ -7309,7 +7309,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Atari   2600",
         "path": "gamepads/Named_Overlays/Atari - 2600.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -7350,7 +7350,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Atari   7800",
         "path": "gamepads/Named_Overlays/Atari - 7800.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -7413,7 +7413,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Atari   8 Bit",
         "path": "gamepads/Named_Overlays/Atari - 8-bit.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "None",
@@ -7509,7 +7509,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Atari   Lynx",
         "path": "gamepads/Named_Overlays/Atari - Lynx.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-gb-b",
@@ -7572,7 +7572,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Bandai   Wonderswan Color",
         "path": "gamepads/Named_Overlays/Bandai - WonderSwan Color.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -7613,7 +7613,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Bandai   Wonderswan",
         "path": "gamepads/Named_Overlays/Bandai - WonderSwan.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -7654,7 +7654,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Casio   Loopy",
         "path": "gamepads/Named_Overlays/Casio - Loopy.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-4",
@@ -7783,7 +7783,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Cave Story",
         "path": "gamepads/Named_Overlays/Cave Story.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -7824,7 +7824,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Commodore   64",
         "path": "gamepads/Named_Overlays/Commodore - 64.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "None",
@@ -7920,7 +7920,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Commodore   Amiga",
         "path": "gamepads/Named_Overlays/Commodore - Amiga.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "None",
@@ -8016,7 +8016,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Commodore   Pet",
         "path": "gamepads/Named_Overlays/Commodore - PET.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "None",
@@ -8112,7 +8112,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Commodore   Plus 4",
         "path": "gamepads/Named_Overlays/Commodore - Plus-4.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "None",
@@ -8208,7 +8208,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Commodore   Vic 20",
         "path": "gamepads/Named_Overlays/Commodore - VIC-20.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "None",
@@ -8304,7 +8304,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Dos",
         "path": "gamepads/Named_Overlays/DOS.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "None",
@@ -8400,7 +8400,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Enterprise   128",
         "path": "gamepads/Named_Overlays/Enterprise - 128.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "None",
@@ -8496,7 +8496,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Fbneo   Arcade Games",
         "path": "gamepads/Named_Overlays/FBNeo - Arcade Games.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-4",
@@ -8603,7 +8603,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gamepark   Gp32",
         "path": "gamepads/Named_Overlays/GamePark - GP32.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -8787,7 +8787,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gce   Vectrex",
         "path": "gamepads/Named_Overlays/GCE - Vectrex.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-4",
@@ -8916,7 +8916,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Hartung   Game Master",
         "path": "gamepads/Named_Overlays/Hartung - Game Master.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -8990,7 +8990,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Hbmame",
         "path": "gamepads/Named_Overlays/HBMAME.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-4",
@@ -9097,7 +9097,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Infocom   Z Machine",
         "path": "gamepads/Named_Overlays/Infocom - Z-Machine.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "None",
@@ -9193,7 +9193,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Mame 2000",
         "path": "gamepads/Named_Overlays/MAME 2000.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-4",
@@ -9300,7 +9300,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Mame 2003 Plus",
         "path": "gamepads/Named_Overlays/MAME 2003-Plus.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-4",
@@ -9407,7 +9407,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Mame 2003",
         "path": "gamepads/Named_Overlays/MAME 2003.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-4",
@@ -9514,7 +9514,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Mame 2010",
         "path": "gamepads/Named_Overlays/MAME 2010.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-4",
@@ -9621,7 +9621,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Mame 2015",
         "path": "gamepads/Named_Overlays/MAME 2015.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-4",
@@ -9728,7 +9728,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Mame 2016",
         "path": "gamepads/Named_Overlays/MAME 2016.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-4",
@@ -9835,7 +9835,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Mame",
         "path": "gamepads/Named_Overlays/MAME.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-4",
@@ -9942,7 +9942,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Microsoft   Msx",
         "path": "gamepads/Named_Overlays/Microsoft - MSX.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "None",
@@ -10038,7 +10038,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Microsoft   Msx2",
         "path": "gamepads/Named_Overlays/Microsoft - MSX2.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "None",
@@ -10134,7 +10134,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nec   Pc Engine   Turbografx 16",
         "path": "gamepads/Named_Overlays/NEC - PC Engine - TurboGrafx 16.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -10230,7 +10230,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nec   Pc Engine Cd   Turbografx Cd",
         "path": "gamepads/Named_Overlays/NEC - PC Engine CD - TurboGrafx-CD.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -10326,7 +10326,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nec   Pc Engine Supergrafx",
         "path": "gamepads/Named_Overlays/NEC - PC Engine SuperGrafx.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -10422,7 +10422,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nec   Pc 8001",
         "path": "gamepads/Named_Overlays/NEC - PC-8001.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "None",
@@ -10518,7 +10518,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nec   Pc 98",
         "path": "gamepads/Named_Overlays/NEC - PC-98.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "None",
@@ -10614,7 +10614,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nec   Pc Fx",
         "path": "gamepads/Named_Overlays/NEC - PC-FX.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-6",
@@ -10655,7 +10655,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nintendo   Family Computer Disk System",
         "path": "gamepads/Named_Overlays/Nintendo - Family Computer Disk System.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -10795,7 +10795,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nintendo   Game Boy Advance",
         "path": "gamepads/Named_Overlays/Nintendo - Game Boy Advance.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -10979,7 +10979,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nintendo   Game Boy Color",
         "path": "gamepads/Named_Overlays/Nintendo - Game Boy Color.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -11053,7 +11053,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nintendo   Game Boy",
         "path": "gamepads/Named_Overlays/Nintendo - Game Boy.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -11127,7 +11127,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nintendo   Gamecube",
         "path": "gamepads/Named_Overlays/Nintendo - GameCube.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -11168,7 +11168,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nintendo   Nintendo 3Ds",
         "path": "gamepads/Named_Overlays/Nintendo - Nintendo 3DS.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -11209,7 +11209,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nintendo   Nintendo 64",
         "path": "gamepads/Named_Overlays/Nintendo - Nintendo 64.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape_d-pad",
@@ -11261,7 +11261,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nintendo   Nintendo 64Dd",
         "path": "gamepads/Named_Overlays/Nintendo - Nintendo 64DD.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape_d-pad",
@@ -11313,7 +11313,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nintendo   Nintendo Ds",
         "path": "gamepads/Named_Overlays/Nintendo - Nintendo DS.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -11354,7 +11354,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nintendo   Nintendo Dsi",
         "path": "gamepads/Named_Overlays/Nintendo - Nintendo DSi.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -11395,7 +11395,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nintendo   Nintendo Entertainment System",
         "path": "gamepads/Named_Overlays/Nintendo - Nintendo Entertainment System.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -11535,7 +11535,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nintendo   Pokemon Mini",
         "path": "gamepads/Named_Overlays/Nintendo - Pokemon Mini.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -11609,7 +11609,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nintendo   Satellaview",
         "path": "gamepads/Named_Overlays/Nintendo - Satellaview.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -11672,7 +11672,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nintendo   Sufami Turbo",
         "path": "gamepads/Named_Overlays/Nintendo - Sufami Turbo.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -11735,7 +11735,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nintendo   Super Nintendo Entertainment System",
         "path": "gamepads/Named_Overlays/Nintendo - Super Nintendo Entertainment System.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -11798,7 +11798,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nintendo   Virtual Boy",
         "path": "gamepads/Named_Overlays/Nintendo - Virtual Boy.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -11839,7 +11839,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Retropad",
         "path": "gamepads/Named_Overlays/retropad.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -12001,7 +12001,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Sega   32X",
         "path": "gamepads/Named_Overlays/Sega - 32X.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "6-button-landscape",
@@ -12075,7 +12075,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Sega   Dreamcast",
         "path": "gamepads/Named_Overlays/Sega - Dreamcast.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -12138,7 +12138,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Sega   Game Gear",
         "path": "gamepads/Named_Overlays/Sega - Game Gear.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-sms",
@@ -12179,7 +12179,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Sega   Master System   Mark Iii",
         "path": "gamepads/Named_Overlays/Sega - Master System - Mark III.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-sms",
@@ -12220,7 +12220,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Sega   Mega Drive   Genesis",
         "path": "gamepads/Named_Overlays/Sega - Mega Drive - Genesis.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "3-button-landscape",
@@ -12294,7 +12294,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Sega   Mega Cd   Sega Cd",
         "path": "gamepads/Named_Overlays/Sega - Mega-CD - Sega CD.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "3-button-landscape",
@@ -12368,7 +12368,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Sega   Saturn",
         "path": "gamepads/Named_Overlays/Sega - Saturn.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -12409,7 +12409,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Sega   Sg 1000",
         "path": "gamepads/Named_Overlays/Sega - SG-1000.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -12450,7 +12450,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Snk   Neo Geo Cd",
         "path": "gamepads/Named_Overlays/SNK - Neo Geo CD.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-4",
@@ -12579,7 +12579,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Snk   Neo Geo Pocket Color",
         "path": "gamepads/Named_Overlays/SNK - Neo Geo Pocket Color.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -12653,7 +12653,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Snk   Neo Geo Pocket",
         "path": "gamepads/Named_Overlays/SNK - Neo Geo Pocket.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -12727,7 +12727,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Snk   Neo Geo",
         "path": "gamepads/Named_Overlays/SNK - Neo Geo.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-4",
@@ -12856,7 +12856,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Sony   Playstation 2",
         "path": "gamepads/Named_Overlays/Sony - PlayStation 2.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -13018,7 +13018,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Sony   Playstation 3 (Psn)",
         "path": "gamepads/Named_Overlays/Sony - PlayStation 3 (PSN).cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -13180,7 +13180,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Sony   Playstation 3",
         "path": "gamepads/Named_Overlays/Sony - PlayStation 3.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -13342,7 +13342,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Sony   Playstation Portable (Psn)",
         "path": "gamepads/Named_Overlays/Sony - PlayStation Portable (PSN).cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -13405,7 +13405,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Sony   Playstation Portable",
         "path": "gamepads/Named_Overlays/Sony - PlayStation Portable.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -13468,7 +13468,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Sony   Playstation",
         "path": "gamepads/Named_Overlays/Sony - PlayStation.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -13630,7 +13630,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "The 3Do Company   3Do",
         "path": "gamepads/Named_Overlays/The 3DO Company - 3DO.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -13671,7 +13671,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Vircon32",
         "path": "gamepads/Named_Overlays/Vircon32.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-a",
@@ -13734,7 +13734,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Neo Ds Portrait",
         "path": "gamepads/neo-ds-portrait/neo-ds-portrait.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Portrait-digital",
@@ -13764,7 +13764,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Neo Retropad Clear",
         "path": "gamepads/neo-retropad/neo-retropad-clear.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-digital",
@@ -13860,7 +13860,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Neo Retropad Clear_Collapsed",
         "path": "gamepads/neo-retropad/neo-retropad-clear_collapsed.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-hidden-digital",
@@ -13956,7 +13956,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Neo Retropad",
         "path": "gamepads/neo-retropad/neo-retropad.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-digital",
@@ -14052,7 +14052,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Neo Retropad_Collapsed",
         "path": "gamepads/neo-retropad/neo-retropad_collapsed.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-hidden-digital",
@@ -14148,7 +14148,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nes",
         "path": "gamepads/nes/nes.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -14200,7 +14200,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nes Small Ab",
         "path": "gamepads/nes-small/nes-small-ab.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -14219,7 +14219,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nes Small Abxy",
         "path": "gamepads/nes-small/nes-small-abxy.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -14238,7 +14238,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "720 Med",
         "path": "gamepads/old/720-med.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -14268,7 +14268,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Box Gba With Diagonals",
         "path": "gamepads/old/box-gba-with-diagonals.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -14320,7 +14320,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Box Gba",
         "path": "gamepads/old/box-gba.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -14372,7 +14372,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Box Ps With Diagonals",
         "path": "gamepads/old/box-ps-with-diagonals.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -14424,7 +14424,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Box Psx",
         "path": "gamepads/old/box-psx.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -14476,7 +14476,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gameboy Landscape",
         "path": "gamepads/old/gameboy-landscape.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -14517,7 +14517,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Gameboy Portrait",
         "path": "gamepads/old/gameboy-portrait.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -14558,7 +14558,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Genesis3 Landscape",
         "path": "gamepads/old/genesis3-landscape.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -14599,7 +14599,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Genesis3 Portrait",
         "path": "gamepads/old/genesis3-portrait.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -14640,7 +14640,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Genesis6 Landscape",
         "path": "gamepads/old/genesis6-landscape.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -14681,7 +14681,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Genesis6 Portrait",
         "path": "gamepads/old/genesis6-portrait.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -14722,7 +14722,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Lynx Landscape",
         "path": "gamepads/old/lynx-landscape.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -14741,7 +14741,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nes Landscape",
         "path": "gamepads/old/nes-landscape.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -14782,7 +14782,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Nes Portrait",
         "path": "gamepads/old/nes-portrait.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -14823,7 +14823,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Psx Landscape",
         "path": "gamepads/old/psx-landscape.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -14864,7 +14864,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Psx Portrait",
         "path": "gamepads/old/psx-portrait.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -14905,7 +14905,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Snes Landscape",
         "path": "gamepads/old/snes-landscape.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -14946,7 +14946,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Snes Portrait",
         "path": "gamepads/old/snes-portrait.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -14987,7 +14987,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Basic_Overlay",
         "path": "gamepads/old/Low-resolution/basic_overlay.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -15028,7 +15028,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Basic_Overlay_Portrait",
         "path": "gamepads/old/Low-resolution/basic_overlay_portrait.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -15069,7 +15069,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Opium_2",
         "path": "gamepads/old/Low-resolution/opium_2.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -15110,7 +15110,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Opium_3",
         "path": "gamepads/old/Low-resolution/opium_3.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -15151,7 +15151,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Opium_4",
         "path": "gamepads/old/Low-resolution/opium_4.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -15192,7 +15192,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Opium_5",
         "path": "gamepads/old/Low-resolution/opium_5.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -15233,7 +15233,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Opium_5B",
         "path": "gamepads/old/Low-resolution/opium_5b.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -15274,7 +15274,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Opium_6",
         "path": "gamepads/old/Low-resolution/opium_6.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -15315,7 +15315,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Opium_7",
         "path": "gamepads/old/Low-resolution/opium_7.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -15356,7 +15356,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Opium_8",
         "path": "gamepads/old/Low-resolution/opium_8.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
@@ -15397,7 +15397,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Piixel Retropad",
         "path": "gamepads/Piixel-Gamepads/Piixel Retropad/Piixel Retropad.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -15559,7 +15559,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Box Psx Diagonals",
         "path": "gamepads/psx/box-psx-diagonals.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -15611,7 +15611,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Psx",
         "path": "gamepads/psx/psx.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -15663,7 +15663,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Quadpad",
         "path": "gamepads/quadpad/quadpad.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -15715,7 +15715,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Retropad",
         "path": "gamepads/retropad/retropad.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
@@ -15833,7 +15833,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Rgpad_Modern",
         "path": "gamepads/rgpad/rgpad_modern.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-basic",
@@ -16017,7 +16017,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Rgpad_Retro",
         "path": "gamepads/rgpad/rgpad_retro.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape-basic",
@@ -16201,7 +16201,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Scummvm_Mousemode",
         "path": "gamepads/scummvm/scummvm_mousemode.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Hide",
@@ -16231,7 +16231,7 @@ const OVERLAY_MANIFEST = [
     {
         "name": "Snes",
         "path": "gamepads/snes/snes.cfg",
-        "category": "Standard",
+        "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
