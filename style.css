@@ -240,14 +240,16 @@ body {
 
 .game-bg {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
     background-image: url('cherilthegoddess-s2.png');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
-    opacity: 0.6;
+    opacity: 0.7;
     z-index: 1;
 }
 
