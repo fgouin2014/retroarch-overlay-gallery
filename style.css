@@ -163,6 +163,16 @@ body {
     background: rgba(255, 255, 255, 0.05);
 }
 
+.gallery-category {
+    padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.7;
+}
+
 .gallery-item.active {
     background: rgba(56, 189, 248, 0.1);
     border: 1px solid var(--accent);
