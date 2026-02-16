@@ -7,10 +7,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const currentName = document.getElementById('current-name');
 
     const modeSelect = document.getElementById('mode-select');
-    let activeModeIndex = 0;
+    const inputZoom = document.getElementById('input-zoom');
+    const inputOffset = document.getElementById('input-offset');
+    const zoomVal = document.getElementById('zoom-val');
+    const offsetVal = document.getElementById('offset-val');
+    const btnReset = document.getElementById('reset-adjustments');
 
+    let activeModeIndex = 0;
     let allOverlays = [];
     let activeOverlay = null;
+
+    // Manual adjustments state
+    let adjustments = {
+        zoom: 100,
+        offset: 0
+    };
 
     async function init() {
         if (typeof OVERLAY_MANIFEST !== 'undefined') {
@@ -37,6 +48,54 @@ document.addEventListener('DOMContentLoaded', () => {
                 aboutSection.classList.toggle('collapsed');
             });
         }
+
+        // Adjustment listeners
+        inputZoom.addEventListener('input', (e) => {
+            adjustments.zoom = parseInt(e.target.value);
+            zoomVal.textContent = adjustments.zoom;
+            saveAdjustments();
+            updatePreview();
+        });
+
+        inputOffset.addEventListener('input', (e) => {
+            adjustments.offset = parseInt(e.target.value);
+            offsetVal.textContent = adjustments.offset;
+            saveAdjustments();
+            updatePreview();
+        });
+
+        btnReset.addEventListener('click', () => {
+            adjustments.zoom = 100;
+            adjustments.offset = 0;
+            updateUIControls();
+            saveAdjustments();
+            updatePreview();
+        });
+    }
+
+    function saveAdjustments() {
+        if (!activeOverlay) return;
+        const key = `adj_${activeOverlay.path}`;
+        localStorage.setItem(key, JSON.stringify(adjustments));
+    }
+
+    function loadAdjustments() {
+        if (!activeOverlay) return;
+        const key = `adj_${activeOverlay.path}`;
+        const saved = localStorage.getItem(key);
+        if (saved) {
+            adjustments = JSON.parse(saved);
+        } else {
+            adjustments = { zoom: 100, offset: 0 };
+        }
+        updateUIControls();
+    }
+
+    function updateUIControls() {
+        inputZoom.value = adjustments.zoom;
+        zoomVal.textContent = adjustments.zoom;
+        inputOffset.value = adjustments.offset;
+        offsetVal.textContent = adjustments.offset;
     }
 
     function renderGallery(items) {
@@ -60,6 +119,8 @@ document.addEventListener('DOMContentLoaded', () => {
         activeOverlay = item;
         currentName.textContent = item.name;
         activeModeIndex = 0; // Reset to first mode
+
+        loadAdjustments();
 
         // Update selection in UI
         document.querySelectorAll('.gallery-item').forEach(el => {
@@ -114,6 +175,35 @@ document.addEventListener('DOMContentLoaded', () => {
                 gameBg.style.width = '';
                 gameBg.style.height = '';
                 gameBg.style.transform = '';
+            }
+
+            // Apply manual adjustments (Zoom & Position)
+            // Combined with viewport if it exists, or base defaults
+            const currentScale = adjustments.zoom / 100;
+            const currentOffset = adjustments.offset;
+
+            // If we have viewport, we modify it with adjustments
+            if (gameBg.style.top) {
+                // Adjusting a viewport-defined position
+                const baseTop = parseFloat(gameBg.style.top);
+                const baseHeight = parseFloat(gameBg.style.height);
+
+                gameBg.style.height = `${baseHeight * currentScale}%`;
+                gameBg.style.width = `${parseFloat(gameBg.style.width) * currentScale}%`;
+                gameBg.style.top = `${baseTop + currentOffset}%`;
+            } else {
+                // Adjusting the CSS-default position
+                // For portrait, CSS says top: 2%, width: 95%, height: 75%
+                // For landscape, CSS says top: 50%, left: 50%, width: 90%
+                if (orientation === 'portrait') {
+                    gameBg.style.top = `${2 + currentOffset}%`;
+                    gameBg.style.height = `${75 * currentScale}%`;
+                    gameBg.style.width = `${95 * currentScale}%`;
+                } else {
+                    gameBg.style.top = `${50 + currentOffset}%`;
+                    gameBg.style.height = `${90 * currentScale}%`;
+                    gameBg.style.width = `${90 * currentScale}%`;
+                }
             }
         }
 
