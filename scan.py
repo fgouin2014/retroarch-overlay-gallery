@@ -25,9 +25,17 @@ def scan_overlays(root_dir):
                     content = f.read()
                     config = parse_cfg(content)
                     
-                    # Extract image paths
-                    portrait = config.get('overlay0_overlay')
-                    landscape = config.get('overlay1_overlay')
+                    cfg_dir = os.path.dirname(rel_path).replace('\\', '/')
+                    
+                    def resolve_img(img_name):
+                        if not img_name: return None
+                        # If image is in the same folder or subfolder
+                        if cfg_dir:
+                            return f"{cfg_dir}/{img_name}"
+                        return img_name
+
+                    portrait = resolve_img(config.get('overlay0_overlay'))
+                    landscape = resolve_img(config.get('overlay1_overlay'))
                     
                     if portrait or landscape:
                         overlays.append({

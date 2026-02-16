@@ -59,14 +59,10 @@ document.addEventListener('DOMContentLoaded', () => {
     function updatePreview() {
         if (!activeOverlay) return;
 
-        const imgName = orientation === 'portrait' ? activeOverlay.portrait : activeOverlay.landscape;
+        const imgPath = orientation === 'portrait' ? activeOverlay.portrait : activeOverlay.landscape;
 
-        if (imgName) {
-            // Find the directory of the .cfg to resolve relative image path
-            const cfgDir = activeOverlay.path.substring(0, activeOverlay.path.lastIndexOf('/'));
-            const fullPath = cfgDir ? `${cfgDir}/${imgName}` : imgName;
-
-            overlayImg.src = fullPath;
+        if (imgPath) {
+            overlayImg.src = imgPath;
             overlayImg.style.display = 'block';
         } else {
             overlayImg.style.display = 'none';
