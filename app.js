@@ -45,6 +45,13 @@ document.addEventListener('DOMContentLoaded', () => {
         activeOverlay = item;
         currentName.textContent = item.name;
 
+        // Auto-detect best orientation if current one lacks an image
+        if (orientation === 'portrait' && !item.portrait && item.landscape) {
+            orientation = 'landscape';
+        } else if (orientation === 'landscape' && !item.landscape && item.portrait) {
+            orientation = 'portrait';
+        }
+
         // Update selection in UI
         document.querySelectorAll('.gallery-item').forEach(el => {
             el.classList.toggle('active', el.querySelector('h4').textContent === item.name);
@@ -61,16 +68,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const imgPath = orientation === 'portrait' ? activeOverlay.portrait : activeOverlay.landscape;
 
+        // Ensure visibility and correct source
         if (imgPath) {
             overlayImg.src = imgPath;
-            overlayImg.style.display = 'block';
+            overlayImg.style.visibility = 'visible';
+            overlayImg.style.opacity = '0.95';
         } else {
-            overlayImg.style.display = 'none';
+            overlayImg.style.visibility = 'hidden';
         }
 
         deviceFrame.className = `device-frame ${orientation}`;
+
+        // Handle button states based on available images
         btnPortrait.classList.toggle('active', orientation === 'portrait');
         btnLandscape.classList.toggle('active', orientation === 'landscape');
+
+        // Disable buttons if image not available for that mode
+        btnPortrait.disabled = !activeOverlay.portrait;
+        btnLandscape.disabled = !activeOverlay.landscape;
+
+        btnPortrait.style.opacity = activeOverlay.portrait ? '1' : '0.3';
+        btnLandscape.style.opacity = activeOverlay.landscape ? '1' : '0.3';
     }
 
     searchInput.addEventListener('input', (e) => {
