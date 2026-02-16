@@ -50,14 +50,8 @@ document.addEventListener('DOMContentLoaded', () => {
             el.classList.toggle('active', el.querySelector('h4').textContent === item.name);
         });
 
-        // Load actual CFG content
-        try {
-            const response = await fetch(item.path);
-            const text = await response.text();
-            cfgDisplay.textContent = text;
-        } catch (e) {
-            cfgDisplay.textContent = 'Erreur lors de la lecture du fichier .cfg';
-        }
+        // Use embedded CFG content to avoid CORS errors locally
+        cfgDisplay.textContent = item.content || 'Aucune donnée disponible dans ce fichier .cfg';
 
         updatePreview();
     }

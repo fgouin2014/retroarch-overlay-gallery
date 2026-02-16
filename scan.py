@@ -34,7 +34,8 @@ def scan_overlays(root_dir):
                             "name": os.path.splitext(file)[0].replace('-', ' ').title(),
                             "path": rel_path.replace('\\', '/'),
                             "portrait": portrait,
-                            "landscape": landscape
+                            "landscape": landscape,
+                            "content": content
                         })
     
     return overlays
