@@ -339,10 +339,14 @@ body {
 
 .device-frame.portrait {
     flex-direction: column;
+    aspect-ratio: 9 / 19.5;
+    /* Modern phone portrait ratio */
 }
 
 .device-frame.landscape {
     flex-direction: row;
+    aspect-ratio: 19.5 / 9;
+    /* Modern phone landscape ratio */
 }
 
 .screen {
