@@ -98,6 +98,25 @@ document.addEventListener('DOMContentLoaded', () => {
             overlayImg.style.visibility = 'hidden';
         }
 
+        const gameBg = document.querySelector('.game-bg');
+        if (gameBg) {
+            if (mode.viewport && mode.viewport.x !== null && mode.viewport.y !== null) {
+                // Apply manual viewport
+                gameBg.style.left = `${mode.viewport.x * 100}%`;
+                gameBg.style.top = `${mode.viewport.y * 100}%`;
+                gameBg.style.width = mode.viewport.w !== null ? `${mode.viewport.w * 100}%` : '80%';
+                gameBg.style.height = mode.viewport.h !== null ? `${mode.viewport.h * 100}%` : '40%';
+                gameBg.style.transform = 'translate(-50%, -50%)'; // Reset transform if needed
+            } else {
+                // Clear manual styles to let CSS classes take over
+                gameBg.style.left = '';
+                gameBg.style.top = '';
+                gameBg.style.width = '';
+                gameBg.style.height = '';
+                gameBg.style.transform = '';
+            }
+        }
+
         deviceFrame.className = `device-frame ${orientation}`;
     }
 

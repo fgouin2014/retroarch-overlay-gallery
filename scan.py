@@ -54,10 +54,23 @@ def scan_overlays(root_dir):
                         if 'portrait' in raw_name.lower() or '-p.' in img.lower() or '_p.' in img.lower():
                             orientation = 'portrait'
                         
+                        # Extract Viewport (x, y, w, h) - can be per mode or global
+                        # Normalized coordinates (0-1) are preferred
+                        vp_x = config.get(f'overlay{i}_viewport_x') or config.get('viewport_x')
+                        vp_y = config.get(f'overlay{i}_viewport_y') or config.get('viewport_y')
+                        vp_w = config.get(f'overlay{i}_viewport_width') or config.get('viewport_width')
+                        vp_h = config.get(f'overlay{i}_viewport_height') or config.get('viewport_height')
+
                         modes.append({
                             "name": raw_name.capitalize(),
                             "image": res_img,
-                            "orientation": orientation
+                            "orientation": orientation,
+                            "viewport": {
+                                "x": float(vp_x) if vp_x else None,
+                                "y": float(vp_y) if vp_y else None,
+                                "w": float(vp_w) if vp_w else None,
+                                "h": float(vp_h) if vp_h else None
+                            }
                         })
 
                     if modes:
