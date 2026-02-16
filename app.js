@@ -28,6 +28,15 @@ document.addEventListener('DOMContentLoaded', () => {
             activeModeIndex = parseInt(e.target.value);
             updatePreview();
         });
+
+        // About section toggle
+        const aboutToggle = document.getElementById('about-toggle');
+        const aboutSection = document.querySelector('.about-section');
+        if (aboutToggle && aboutSection) {
+            aboutToggle.addEventListener('click', () => {
+                aboutSection.classList.toggle('collapsed');
+            });
+        }
     }
 
     function renderGallery(items) {
