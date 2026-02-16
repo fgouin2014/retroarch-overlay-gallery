@@ -25,18 +25,47 @@ def scan_overlays(root_dir):
                     content = f.read()
                     config = parse_cfg(content)
                     
+                    # Clean values (strip quotes and spaces)
+                    for k in config:
+                        val = config[k].strip()
+                        if (val.startswith('"') and val.endswith('"')) or (val.startswith("'") and val.endswith("'")):
+                            config[k] = val[1:-1].strip()
+                        else:
+                            config[k] = val
+
                     cfg_dir = os.path.dirname(rel_path).replace('\\', '/')
                     
                     def resolve_img(img_name):
                         if not img_name: return None
-                        # If image is in the same folder or subfolder
                         if cfg_dir:
                             return f"{cfg_dir}/{img_name}"
                         return img_name
 
-                    portrait = resolve_img(config.get('overlay0_overlay'))
-                    landscape = resolve_img(config.get('overlay1_overlay'))
+                    portrait = None
+                    landscape = None
+
+                    # Check multiple overlays (often 0 or 1, but can be more)
+                    for i in range(6):
+                        img = config.get(f'overlay{i}_overlay')
+                        name = config.get(f'overlay{i}_name', '').lower()
+                        
+                        if img:
+                            res_img = resolve_img(img)
+                            if "portrait" in name or ("-p." in img.lower()) or ("_p." in img.lower()):
+                                portrait = res_img
+                            elif "landscape" in name or ("-l." in img.lower()) or ("_l." in img.lower()):
+                                landscape = res_img
+                            else:
+                                # Default assignments if not explicitly named
+                                if i == 0 and not landscape: landscape = res_img
+                                if i == 1 and not portrait: portrait = res_img
                     
+                    # Fallback if only one found but both null due to naming
+                    if not portrait and not landscape:
+                        first_img = config.get('overlay0_overlay') or config.get('overlay1_overlay')
+                        if first_img:
+                            landscape = resolve_img(first_img)
+
                     if portrait or landscape:
                         overlays.append({
                             "name": os.path.splitext(file)[0].replace('-', ' ').title(),
