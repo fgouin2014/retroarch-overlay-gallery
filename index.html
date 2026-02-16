@@ -4,59 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RetroArch Overlay Viewer</title>
-    <link rel="stylesheet" href="style.css">
+    <title>RetroArch Overlay Gallery</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="app-container">
-        <header>
-            <h1>RetroArch Overlay Viewer</h1>
-            <p>Visualisez vos overlays de gamepad facilement.</p>
-        </header>
-
-        <main>
-            <div class="layout-main">
-                <aside class="gallery-container">
-                    <div class="search-box">
-                        <input type="text" id="overlay-search" placeholder="Rechercher...">
-                    </div>
-                    <div class="gallery" id="gallery-list">
-                        <!-- Items injected by JS -->
-                    </div>
-                </aside>
-
-                <section class="viewer-section">
-                    <div class="controls">
-                        <div class="toggle-group">
-                            <button id="btn-portrait" class="active">Portrait</button>
-                            <button id="btn-landscape">Paysage</button>
-                        </div>
-                    </div>
-
-                    <div class="preview-area" id="preview-area">
-                        <div class="device-frame portrait" id="device-frame">
-                            <div class="screen">
-                                <img id="overlay-img" src="" alt="Overlay Preview">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="info-area">
-                        <h2 id="current-name">Sélectionnez un overlay</h2>
-                        <pre id="cfg-display" class="cfg-details"></pre>
-                    </div>
-                </section>
+    <div class="app">
+        <aside class="sidebar">
+            <header>
+                <h1>Overlays</h1>
+                <input type="text" id="overlay-search" placeholder="Rechercher...">
+            </header>
+            <div id="gallery-list" class="gallery">
+                <!-- Items injected by JS -->
             </div>
-        </main>
+        </aside>
 
-        <footer>
-            <p>Créé pour la communauté RetroArch</p>
-        </footer>
+        <main class="viewer">
+            <nav class="top-bar">
+                <div class="selection-info">
+                    <h2 id="current-name">Sélectionnez un overlay</h2>
+                </div>
+                <div class="orientation-toggle">
+                    <button id="btn-portrait" class="active">Portrait</button>
+                    <button id="btn-landscape">Paysage</button>
+                </div>
+            </nav>
+
+            <div class="preview-container">
+                <div id="device-frame" class="device-frame portrait">
+                    <div class="screen">
+                        <img id="overlay-img" src="" alt="Overlay Preview">
+                    </div>
+                </div>
+            </div>
+
+            <details class="cfg-panel">
+                <summary>Voir le contenu du fichier .cfg</summary>
+                <pre id="cfg-display"></pre>
+            </details>
+        </main>
     </div>
+
     <script src="manifest.js"></script>
     <script src="app.js"></script>
 </body>
