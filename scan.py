@@ -41,21 +41,34 @@ def scan_overlays(root_dir):
                         return img_name
 
                     modes = []
-                    # RetroArch usually stops at 16 overlays, we check up to 10
-                    for i in range(10):
+                    num_overlays = int(config.get('overlays', 1))
+                    
+                    for i in range(num_overlays):
                         img = config.get(f'overlay{i}_overlay')
-                        if not img: continue
-                        
                         raw_name = config.get(f'overlay{i}_name', f'Mode {i}')
-                        res_img = resolve_img(img)
+                        res_img = resolve_img(img) if img else None
                         
                         # Determine orientation hint
-                        orientation = 'landscape'
-                        if 'portrait' in raw_name.lower() or '-p.' in img.lower() or '_p.' in img.lower():
-                            orientation = 'portrait'
+                        aspect = config.get(f'overlay{i}_aspect_ratio') or config.get('aspect_ratio')
+                        orientation = None
                         
-                        # Extract Viewport (x, y, w, h) - can be per mode or global
-                        # Normalized coordinates (0-1) are preferred
+                        if aspect:
+                            try:
+                                if float(aspect) > 1:
+                                    orientation = 'landscape'
+                                else:
+                                    orientation = 'portrait'
+                            except:
+                                pass
+                        
+                        if not orientation:
+                            orientation = 'landscape'
+                            img_str = (img or "").lower()
+                            name_str = raw_name.lower()
+                            if 'portrait' in name_str or '-p.' in img_str or '_p.' in img_str or 'port' in name_str:
+                                orientation = 'portrait'
+                        
+                        # Extract Viewport
                         vp_x = config.get(f'overlay{i}_viewport_x') or config.get('viewport_x')
                         vp_y = config.get(f'overlay{i}_viewport_y') or config.get('viewport_y')
                         vp_w = config.get(f'overlay{i}_viewport_width') or config.get('viewport_width')
