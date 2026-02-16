@@ -37,41 +37,34 @@ def scan_overlays(root_dir):
                     
                     def resolve_img(img_name):
                         if not img_name: return None
-                        if cfg_dir:
-                            return f"{cfg_dir}/{img_name}"
+                        if cfg_dir: return f"{cfg_dir}/{img_name}"
                         return img_name
 
-                    portrait = None
-                    landscape = None
-
-                    # Check multiple overlays (often 0 or 1, but can be more)
-                    for i in range(6):
+                    modes = []
+                    # RetroArch usually stops at 16 overlays, we check up to 10
+                    for i in range(10):
                         img = config.get(f'overlay{i}_overlay')
-                        name = config.get(f'overlay{i}_name', '').lower()
+                        if not img: continue
                         
-                        if img:
-                            res_img = resolve_img(img)
-                            if "portrait" in name or ("-p." in img.lower()) or ("_p." in img.lower()):
-                                portrait = res_img
-                            elif "landscape" in name or ("-l." in img.lower()) or ("_l." in img.lower()):
-                                landscape = res_img
-                            else:
-                                # Default assignments if not explicitly named
-                                if i == 0 and not landscape: landscape = res_img
-                                if i == 1 and not portrait: portrait = res_img
-                    
-                    # Fallback if only one found but both null due to naming
-                    if not portrait and not landscape:
-                        first_img = config.get('overlay0_overlay') or config.get('overlay1_overlay')
-                        if first_img:
-                            landscape = resolve_img(first_img)
+                        raw_name = config.get(f'overlay{i}_name', f'Mode {i}')
+                        res_img = resolve_img(img)
+                        
+                        # Determine orientation hint
+                        orientation = 'landscape'
+                        if 'portrait' in raw_name.lower() or '-p.' in img.lower() or '_p.' in img.lower():
+                            orientation = 'portrait'
+                        
+                        modes.append({
+                            "name": raw_name.capitalize(),
+                            "image": res_img,
+                            "orientation": orientation
+                        })
 
-                    if portrait or landscape:
+                    if modes:
                         overlays.append({
                             "name": os.path.splitext(file)[0].replace('-', ' ').title(),
                             "path": rel_path.replace('\\', '/'),
-                            "portrait": portrait,
-                            "landscape": landscape,
+                            "modes": modes,
                             "content": content
                         })
     

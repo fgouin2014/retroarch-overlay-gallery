@@ -117,9 +117,13 @@ body {
 
 .orientation-toggle {
     display: flex;
-    background: #000;
-    padding: 4px;
-    border-radius: 8px;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 6px;
+    border-radius: 12px;
+    gap: 4px;
+    justify-content: flex-end;
+    max-width: 400px;
 }
 
 .orientation-toggle button {
