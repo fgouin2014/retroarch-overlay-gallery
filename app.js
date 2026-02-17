@@ -199,7 +199,11 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             overlayImg.style.visibility = 'hidden';
             // Fallback aspect ratio for modes without background images
-            deviceFrame.style.aspectRatio = orientation === 'portrait' ? '9/19.5' : '19.5/9';
+            if (mode.aspect) {
+                deviceFrame.style.aspectRatio = mode.aspect.toString();
+            } else {
+                deviceFrame.style.aspectRatio = orientation === 'portrait' ? '9/19.5' : '19.5/9';
+            }
         }
 
         const gameBg = document.querySelector('.game-bg');

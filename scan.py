@@ -45,7 +45,8 @@ def scan_overlays(root_dir):
                     
                     for i in range(num_overlays):
                         img = config.get(f'overlay{i}_overlay')
-                        raw_name = config.get(f'overlay{i}_name', f'Mode {i}')
+                        # Check for name, fallback to a descriptive default
+                        raw_name = config.get(f'overlay{i}_name')
                         res_img = resolve_img(img) if img else None
                         
                         # Determine orientation hint
@@ -64,20 +65,28 @@ def scan_overlays(root_dir):
                         if not orientation:
                             orientation = 'landscape'
                             img_str = (img or "").lower()
-                            name_str = raw_name.lower()
-                            if 'portrait' in name_str or '-p.' in img_str or '_p.' in img_str or 'port' in name_str:
+                            # Use raw_name for hint if available
+                            name_hint = (raw_name or "").lower()
+                            if 'portrait' in name_hint or '-p.' in img_str or '_p.' in img_str or 'port' in name_hint:
                                 orientation = 'portrait'
                         
-                        # Extract Viewport
+                        # Finalize name
+                        if not raw_name or raw_name.startswith('Mode '):
+                            display_name = f"{orientation.capitalize()} {i+1}"
+                        else:
+                            display_name = raw_name.strip('"').strip("'").capitalize()
+
+                        # Viewport
                         vp_x = config.get(f'overlay{i}_viewport_x') or config.get('viewport_x')
                         vp_y = config.get(f'overlay{i}_viewport_y') or config.get('viewport_y')
                         vp_w = config.get(f'overlay{i}_viewport_width') or config.get('viewport_width')
                         vp_h = config.get(f'overlay{i}_viewport_height') or config.get('viewport_height')
 
                         modes.append({
-                            "name": raw_name.capitalize(),
+                            "name": display_name,
                             "image": res_img,
                             "orientation": orientation,
+                            "aspect": float(aspect) if aspect else None,
                             "viewport": {
                                 "x": float(vp_x) if vp_x else None,
                                 "y": float(vp_y) if vp_y else None,
