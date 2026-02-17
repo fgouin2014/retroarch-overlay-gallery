@@ -125,11 +125,25 @@ document.addEventListener('DOMContentLoaded', () => {
             return a.localeCompare(b);
         });
 
-        sortedCats.forEach(cat => {
+        sortedCats.forEach((cat, index) => {
             // Category header
             const header = document.createElement('div');
             header.className = 'gallery-category';
             header.textContent = cat;
+
+            // Items container
+            const itemsContainer = document.createElement('div');
+            itemsContainer.className = 'category-items';
+
+            // Default collapse state (expand first one, or use a remembered state)
+            // For now, let's keep all expanded by default or just the first one
+            // Let's expand all by default for better discoverability, but allow collapsing
+
+            header.addEventListener('click', () => {
+                header.classList.toggle('collapsed');
+                itemsContainer.classList.toggle('collapsed');
+            });
+
             galleryList.appendChild(header);
 
             groups[cat].forEach(item => {
@@ -143,8 +157,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 `;
 
                 div.addEventListener('click', () => selectOverlay(item));
-                galleryList.appendChild(div);
+                itemsContainer.appendChild(div);
             });
+
+            galleryList.appendChild(itemsContainer);
         });
     }
 
