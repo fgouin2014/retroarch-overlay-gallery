@@ -80,6 +80,14 @@ document.addEventListener('DOMContentLoaded', () => {
             saveAdjustments();
             updatePreview();
         });
+
+        // Dynamic aspect ratio adjustment
+        overlayImg.onload = () => {
+            if (overlayImg.naturalWidth && overlayImg.naturalHeight) {
+                const ratio = overlayImg.naturalWidth / overlayImg.naturalHeight;
+                deviceFrame.style.aspectRatio = ratio.toString();
+            }
+        };
     }
 
     function saveAdjustments() {
@@ -190,6 +198,8 @@ document.addEventListener('DOMContentLoaded', () => {
             overlayImg.style.opacity = '1';
         } else {
             overlayImg.style.visibility = 'hidden';
+            // Fallback aspect ratio for modes without background images
+            deviceFrame.style.aspectRatio = orientation === 'portrait' ? '9/19.5' : '19.5/9';
         }
 
         const gameBg = document.querySelector('.game-bg');
