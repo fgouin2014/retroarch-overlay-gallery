@@ -1,12 +1,12 @@
 const OVERLAY_MANIFEST = [
     {
         "name": "720 Med",
-        "path": "720-med/720-med.cfg",
+        "path": "overlays_data/gamepads/720-med/720-med.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
-                "image": "720-med/img/720-med.png",
+                "image": "overlays_data/gamepads/720-med/img/720-med.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -17,7 +17,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Menu",
-                "image": "720-med/img/720-med-menu.png",
+                "image": "overlays_data/gamepads/720-med/img/720-med-menu.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -31,7 +31,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Arcade",
-        "path": "arcade/arcade.cfg",
+        "path": "overlays_data/gamepads/arcade/arcade.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -105,12 +105,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "6 Button Fighter",
-        "path": "arcade-anim/6-button-fighter.cfg",
+        "path": "overlays_data/gamepads/arcade-anim/6-button-fighter.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "6-button-fighter",
-                "image": "arcade-anim/img/6-button-fighter.png",
+                "image": "overlays_data/gamepads/arcade-anim/img/6-button-fighter.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -124,12 +124,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Neogeo",
-        "path": "arcade-anim/neogeo.cfg",
+        "path": "overlays_data/gamepads/arcade-anim/neogeo.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Neogeo",
-                "image": "arcade-anim/img/neogeo.png",
+                "image": "overlays_data/gamepads/arcade-anim/img/neogeo.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -143,7 +143,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Arcade Auto",
-        "path": "arcade-auto/arcade-auto.cfg",
+        "path": "overlays_data/gamepads/arcade-auto/arcade-auto.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -217,7 +217,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Arcade Minimal",
-        "path": "arcade-minimal/arcade-minimal.cfg",
+        "path": "overlays_data/gamepads/arcade-minimal/arcade-minimal.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -291,7 +291,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Arcade Retroplay 0 1 2 3",
-        "path": "arcade-retroplay/arcade-retroplay-0-1-2-3.cfg",
+        "path": "overlays_data/gamepads/arcade-retroplay/arcade-retroplay-0-1-2-3.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -409,7 +409,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Arcade Retroplay 0 6",
-        "path": "arcade-retroplay/arcade-retroplay-0-6.cfg",
+        "path": "overlays_data/gamepads/arcade-retroplay/arcade-retroplay-0-6.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -593,7 +593,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Arcade Retroplay 1 2",
-        "path": "arcade-retroplay/arcade-retroplay-1-2.cfg",
+        "path": "overlays_data/gamepads/arcade-retroplay/arcade-retroplay-1-2.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -667,7 +667,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Arcade Retroplay",
-        "path": "arcade-retroplay/arcade-retroplay.cfg",
+        "path": "overlays_data/gamepads/arcade-retroplay/arcade-retroplay.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -829,7 +829,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "New Arcade Retroplay 0 6",
-        "path": "arcade-retroplay/new-arcade-retroplay-0-6.cfg",
+        "path": "overlays_data/gamepads/arcade-retroplay/new-arcade-retroplay-0-6.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -1013,12 +1013,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Cdi",
-        "path": "cdi_anim_portrait/cdi.cfg",
+        "path": "overlays_data/gamepads/cdi_anim_portrait/cdi.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Cdi-portrait",
-                "image": "cdi_anim_portrait/img/Background.png",
+                "image": "overlays_data/gamepads/cdi_anim_portrait/img/Background.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -1032,7 +1032,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Dual Shock",
-        "path": "dual-shock/dual-shock.cfg",
+        "path": "overlays_data/gamepads/dual-shock/dual-shock.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -1084,7 +1084,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Psx Black",
-        "path": "dual-shock/psx-black.cfg",
+        "path": "overlays_data/gamepads/dual-shock/psx-black.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -1136,7 +1136,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Example",
-        "path": "example/example.cfg",
+        "path": "overlays_data/gamepads/example/example.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -1155,7 +1155,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Arcade",
-        "path": "flat/arcade.cfg",
+        "path": "overlays_data/gamepads/flat/arcade.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -1262,7 +1262,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Atari2600",
-        "path": "flat/atari2600.cfg",
+        "path": "overlays_data/gamepads/flat/atari2600.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -1303,7 +1303,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Atari7800",
-        "path": "flat/atari7800.cfg",
+        "path": "overlays_data/gamepads/flat/atari7800.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -1366,7 +1366,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Atari_Lynx",
-        "path": "flat/atari_lynx.cfg",
+        "path": "overlays_data/gamepads/flat/atari_lynx.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -1429,7 +1429,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Cave_Story",
-        "path": "flat/cave_story.cfg",
+        "path": "overlays_data/gamepads/flat/cave_story.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -1470,7 +1470,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Cps",
-        "path": "flat/cps.cfg",
+        "path": "overlays_data/gamepads/flat/cps.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -1511,7 +1511,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Dreamcast",
-        "path": "flat/dreamcast.cfg",
+        "path": "overlays_data/gamepads/flat/dreamcast.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -1574,7 +1574,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gameboy",
-        "path": "flat/gameboy.cfg",
+        "path": "overlays_data/gamepads/flat/gameboy.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -1648,7 +1648,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gamecube",
-        "path": "flat/gamecube.cfg",
+        "path": "overlays_data/gamepads/flat/gamecube.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -1689,7 +1689,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gba",
-        "path": "flat/gba.cfg",
+        "path": "overlays_data/gamepads/flat/gba.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -1873,7 +1873,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Genesis",
-        "path": "flat/genesis.cfg",
+        "path": "overlays_data/gamepads/flat/genesis.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -1947,7 +1947,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Genesis_And_Sms",
-        "path": "flat/genesis_and_sms.cfg",
+        "path": "overlays_data/gamepads/flat/genesis_and_sms.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -2054,7 +2054,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Neogeo",
-        "path": "flat/neogeo.cfg",
+        "path": "overlays_data/gamepads/flat/neogeo.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -2183,7 +2183,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Neogeo_Pocket",
-        "path": "flat/neogeo_pocket.cfg",
+        "path": "overlays_data/gamepads/flat/neogeo_pocket.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -2257,7 +2257,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nes",
-        "path": "flat/nes.cfg",
+        "path": "overlays_data/gamepads/flat/nes.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -2397,7 +2397,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nintendo64",
-        "path": "flat/nintendo64.cfg",
+        "path": "overlays_data/gamepads/flat/nintendo64.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -2471,7 +2471,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "One Handed V1",
-        "path": "flat/one-handed-v1.cfg",
+        "path": "overlays_data/gamepads/flat/one-handed-v1.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -2534,7 +2534,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "One Handed V2 Left",
-        "path": "flat/one-handed-v2-left.cfg",
+        "path": "overlays_data/gamepads/flat/one-handed-v2-left.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -2586,7 +2586,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "One Handed V2",
-        "path": "flat/one-handed-v2.cfg",
+        "path": "overlays_data/gamepads/flat/one-handed-v2.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -2638,7 +2638,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Palm",
-        "path": "flat/palm.cfg",
+        "path": "overlays_data/gamepads/flat/palm.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -2668,7 +2668,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Pc Fx",
-        "path": "flat/pc-fx.cfg",
+        "path": "overlays_data/gamepads/flat/pc-fx.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -2709,7 +2709,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Pokemini",
-        "path": "flat/pokemini.cfg",
+        "path": "overlays_data/gamepads/flat/pokemini.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -2783,7 +2783,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Psp",
-        "path": "flat/psp.cfg",
+        "path": "overlays_data/gamepads/flat/psp.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -2846,7 +2846,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Psx Fast",
-        "path": "flat/psx-fast.cfg",
+        "path": "overlays_data/gamepads/flat/psx-fast.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -2920,7 +2920,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Psx Simple",
-        "path": "flat/psx-simple.cfg",
+        "path": "overlays_data/gamepads/flat/psx-simple.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -2950,7 +2950,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Psx",
-        "path": "flat/psx.cfg",
+        "path": "overlays_data/gamepads/flat/psx.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -3112,7 +3112,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Retropad Fast Forward",
-        "path": "flat/retropad-fast-forward.cfg",
+        "path": "overlays_data/gamepads/flat/retropad-fast-forward.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -3186,7 +3186,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Retropad Fast",
-        "path": "flat/retropad-fast.cfg",
+        "path": "overlays_data/gamepads/flat/retropad-fast.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -3260,7 +3260,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Retropad",
-        "path": "flat/retropad.cfg",
+        "path": "overlays_data/gamepads/flat/retropad.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -3422,7 +3422,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Saturn",
-        "path": "flat/saturn.cfg",
+        "path": "overlays_data/gamepads/flat/saturn.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -3463,7 +3463,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Sms",
-        "path": "flat/sms.cfg",
+        "path": "overlays_data/gamepads/flat/sms.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -3526,7 +3526,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Snes",
-        "path": "flat/snes.cfg",
+        "path": "overlays_data/gamepads/flat/snes.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -3589,7 +3589,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Turbografx 16",
-        "path": "flat/turbografx-16.cfg",
+        "path": "overlays_data/gamepads/flat/turbografx-16.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -3652,7 +3652,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Turbografx 16_6 Button",
-        "path": "flat/turbografx-16_6-button.cfg",
+        "path": "overlays_data/gamepads/flat/turbografx-16_6-button.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -3748,7 +3748,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Virtualboy",
-        "path": "flat/virtualboy.cfg",
+        "path": "overlays_data/gamepads/flat/virtualboy.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -3789,7 +3789,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Wonderswan",
-        "path": "flat/wonderswan.cfg",
+        "path": "overlays_data/gamepads/flat/wonderswan.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -3830,12 +3830,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Flat Base",
-        "path": "flat/old/flat-base.cfg",
+        "path": "overlays_data/gamepads/flat/old/flat-base.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Ztestld",
-                "image": "flat/old/zbaseld.png",
+                "image": "overlays_data/gamepads/flat/old/zbaseld.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -3846,7 +3846,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Ztestla",
-                "image": "flat/old/zbasela.png",
+                "image": "overlays_data/gamepads/flat/old/zbasela.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -3860,12 +3860,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Flat Gb Wip",
-        "path": "flat/old/flat-gb-wip.cfg",
+        "path": "overlays_data/gamepads/flat/old/flat-gb-wip.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "flat/old/zgbpd.png",
+                "image": "overlays_data/gamepads/flat/old/zgbpd.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -3879,12 +3879,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Flat N64",
-        "path": "flat/old/flat-n64.cfg",
+        "path": "overlays_data/gamepads/flat/old/flat-n64.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Flat64d",
-                "image": "flat/old/zn64ld.png",
+                "image": "overlays_data/gamepads/flat/old/zn64ld.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -3895,7 +3895,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Flat64a",
-                "image": "flat/old/zn64la.png",
+                "image": "overlays_data/gamepads/flat/old/zn64la.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -3909,12 +3909,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Flat Ws",
-        "path": "flat/old/flat-ws.cfg",
+        "path": "overlays_data/gamepads/flat/old/flat-ws.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "flat/old/zws.png",
+                "image": "overlays_data/gamepads/flat/old/zws.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -3928,12 +3928,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Flip_Phone",
-        "path": "flip_phone/flip_phone.cfg",
+        "path": "overlays_data/gamepads/flip_phone/flip_phone.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Flip_phone_portrait",
-                "image": "flip_phone/lines_anim.png",
+                "image": "overlays_data/gamepads/flip_phone/lines_anim.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -3947,7 +3947,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gameboy",
-        "path": "gameboy/gameboy.cfg",
+        "path": "overlays_data/gamepads/gameboy/gameboy.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -3999,7 +3999,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gba",
-        "path": "gba/gba.cfg",
+        "path": "overlays_data/gamepads/gba/gba.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -4051,12 +4051,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gba Control Purple",
-        "path": "gba-anim_landscape/gba-control-purple.cfg",
+        "path": "overlays_data/gamepads/gba-anim_landscape/gba-control-purple.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Gba_control",
-                "image": "gba-anim_landscape/img/gba-control-purple.png",
+                "image": "overlays_data/gamepads/gba-anim_landscape/img/gba-control-purple.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -4070,7 +4070,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gba Grey",
-        "path": "gba-grey/gba-grey.cfg",
+        "path": "overlays_data/gamepads/gba-grey/gba-grey.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -4122,7 +4122,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gba",
-        "path": "gba_easy_touch/gba.cfg",
+        "path": "overlays_data/gamepads/gba_easy_touch/gba.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -4306,7 +4306,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gba_Dpad_Fix",
-        "path": "gba_easy_touch/gba_dpad_fix.cfg",
+        "path": "overlays_data/gamepads/gba_easy_touch/gba_dpad_fix.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -4490,12 +4490,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Arctic",
-        "path": "gba_landscape_6x/arctic.cfg",
+        "path": "overlays_data/gamepads/gba_landscape_6x/arctic.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
-                "image": "gba_landscape_6x/img/background_arctic.png",
+                "image": "overlays_data/gamepads/gba_landscape_6x/img/background_arctic.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -4509,12 +4509,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Black",
-        "path": "gba_landscape_6x/black.cfg",
+        "path": "overlays_data/gamepads/gba_landscape_6x/black.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
-                "image": "gba_landscape_6x/img/background_black.png",
+                "image": "overlays_data/gamepads/gba_landscape_6x/img/background_black.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -4528,12 +4528,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Indigo",
-        "path": "gba_landscape_6x/indigo.cfg",
+        "path": "overlays_data/gamepads/gba_landscape_6x/indigo.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
-                "image": "gba_landscape_6x/img/background_indigo.png",
+                "image": "overlays_data/gamepads/gba_landscape_6x/img/background_indigo.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -4547,12 +4547,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Orange",
-        "path": "gba_landscape_6x/orange.cfg",
+        "path": "overlays_data/gamepads/gba_landscape_6x/orange.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Landscape",
-                "image": "gba_landscape_6x/img/background_orange.png",
+                "image": "overlays_data/gamepads/gba_landscape_6x/img/background_orange.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -4566,12 +4566,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gb_Big",
-        "path": "gb_anim_portrait/gb_big.cfg",
+        "path": "overlays_data/gamepads/gb_anim_portrait/gb_big.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Gameboy",
-                "image": "gb_anim_portrait/img/gb_back.png",
+                "image": "overlays_data/gamepads/gb_anim_portrait/img/gb_back.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -4582,7 +4582,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Gameboycolor",
-                "image": "gb_anim_portrait/img/gbc_back.png",
+                "image": "overlays_data/gamepads/gb_anim_portrait/img/gbc_back.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -4596,7 +4596,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Genesis",
-        "path": "genesis/genesis.cfg",
+        "path": "overlays_data/gamepads/genesis/genesis.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -4670,7 +4670,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Dos",
-        "path": "lite/DOS.cfg",
+        "path": "overlays_data/gamepads/lite/DOS.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -4766,7 +4766,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Dos_2",
-        "path": "lite/DOS_2.cfg",
+        "path": "overlays_data/gamepads/lite/DOS_2.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -4862,7 +4862,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Dualshock",
-        "path": "lite/DualShock.cfg",
+        "path": "overlays_data/gamepads/lite/DualShock.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -4958,7 +4958,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Dualshock_2",
-        "path": "lite/DualShock_2.cfg",
+        "path": "overlays_data/gamepads/lite/DualShock_2.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -5054,7 +5054,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Dualshock_Full",
-        "path": "lite/DualShock_Full.cfg",
+        "path": "overlays_data/gamepads/lite/DualShock_Full.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -5150,7 +5150,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Dualshock_Full2",
-        "path": "lite/DualShock_Full2.cfg",
+        "path": "overlays_data/gamepads/lite/DualShock_Full2.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -5246,7 +5246,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Dualshock_Mix",
-        "path": "lite/DualShock_Mix.cfg",
+        "path": "overlays_data/gamepads/lite/DualShock_Mix.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -5342,7 +5342,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gba",
-        "path": "lite/GBA.cfg",
+        "path": "overlays_data/gamepads/lite/GBA.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -5372,7 +5372,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gba_2",
-        "path": "lite/GBA_2.cfg",
+        "path": "overlays_data/gamepads/lite/GBA_2.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -5402,7 +5402,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nds",
-        "path": "lite/NDS.cfg",
+        "path": "overlays_data/gamepads/lite/NDS.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -5498,7 +5498,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Psp",
-        "path": "lite/PSP.cfg",
+        "path": "overlays_data/gamepads/lite/PSP.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -5550,7 +5550,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Psx",
-        "path": "lite/PSX.cfg",
+        "path": "overlays_data/gamepads/lite/PSX.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -5580,7 +5580,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Psx_Frameadvance",
-        "path": "lite/PSX_FrameAdvance.cfg",
+        "path": "overlays_data/gamepads/lite/PSX_FrameAdvance.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -5610,7 +5610,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Snes",
-        "path": "lite/SNES.cfg",
+        "path": "overlays_data/gamepads/lite/SNES.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -5640,7 +5640,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Snes_2",
-        "path": "lite/SNES_2.cfg",
+        "path": "overlays_data/gamepads/lite/SNES_2.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -5670,7 +5670,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "N64",
-        "path": "n64/n64.cfg",
+        "path": "overlays_data/gamepads/n64/n64.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -5722,7 +5722,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "N64",
-        "path": "n64/old/n64.cfg",
+        "path": "overlays_data/gamepads/n64/old/n64.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -5796,7 +5796,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Atari   2600",
-        "path": "Named_Overlays/Atari - 2600.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Atari - 2600.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -5837,7 +5837,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Atari   7800",
-        "path": "Named_Overlays/Atari - 7800.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Atari - 7800.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -5900,7 +5900,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Atari   8 Bit",
-        "path": "Named_Overlays/Atari - 8-bit.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Atari - 8-bit.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -5996,7 +5996,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Atari   Jaguar",
-        "path": "Named_Overlays/Atari - Jaguar.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Atari - Jaguar.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -6070,7 +6070,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Atari   Lynx",
-        "path": "Named_Overlays/Atari - Lynx.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Atari - Lynx.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -6133,7 +6133,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Bandai   Wonderswan Color",
-        "path": "Named_Overlays/Bandai - WonderSwan Color.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Bandai - WonderSwan Color.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -6174,7 +6174,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Bandai   Wonderswan",
-        "path": "Named_Overlays/Bandai - WonderSwan.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Bandai - WonderSwan.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -6215,7 +6215,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Casio   Loopy",
-        "path": "Named_Overlays/Casio - Loopy.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Casio - Loopy.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -6344,7 +6344,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Cave Story",
-        "path": "Named_Overlays/Cave Story.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Cave Story.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -6385,7 +6385,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Commodore   64",
-        "path": "Named_Overlays/Commodore - 64.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Commodore - 64.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -6481,7 +6481,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Commodore   Amiga",
-        "path": "Named_Overlays/Commodore - Amiga.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Commodore - Amiga.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -6577,7 +6577,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Commodore   Pet",
-        "path": "Named_Overlays/Commodore - PET.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Commodore - PET.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -6673,7 +6673,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Commodore   Plus 4",
-        "path": "Named_Overlays/Commodore - Plus-4.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Commodore - Plus-4.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -6769,7 +6769,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Commodore   Vic 20",
-        "path": "Named_Overlays/Commodore - VIC-20.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Commodore - VIC-20.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -6865,7 +6865,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Dos",
-        "path": "Named_Overlays/DOS.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/DOS.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -6961,7 +6961,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Enterprise   128",
-        "path": "Named_Overlays/Enterprise - 128.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Enterprise - 128.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -7057,7 +7057,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Fbneo   Arcade Games",
-        "path": "Named_Overlays/FBNeo - Arcade Games.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/FBNeo - Arcade Games.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -7164,7 +7164,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gamepark   Gp32",
-        "path": "Named_Overlays/GamePark - GP32.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/GamePark - GP32.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -7348,7 +7348,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gce   Vectrex",
-        "path": "Named_Overlays/GCE - Vectrex.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/GCE - Vectrex.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -7477,7 +7477,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Hartung   Game Master",
-        "path": "Named_Overlays/Hartung - Game Master.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Hartung - Game Master.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -7551,7 +7551,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Hbmame",
-        "path": "Named_Overlays/HBMAME.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/HBMAME.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -7658,7 +7658,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Infocom   Z Machine",
-        "path": "Named_Overlays/Infocom - Z-Machine.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Infocom - Z-Machine.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -7754,7 +7754,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Mame 2000",
-        "path": "Named_Overlays/MAME 2000.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/MAME 2000.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -7861,7 +7861,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Mame 2003 Plus",
-        "path": "Named_Overlays/MAME 2003-Plus.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/MAME 2003-Plus.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -7968,7 +7968,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Mame 2003",
-        "path": "Named_Overlays/MAME 2003.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/MAME 2003.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -8075,7 +8075,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Mame 2010",
-        "path": "Named_Overlays/MAME 2010.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/MAME 2010.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -8182,7 +8182,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Mame 2015",
-        "path": "Named_Overlays/MAME 2015.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/MAME 2015.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -8289,7 +8289,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Mame 2016",
-        "path": "Named_Overlays/MAME 2016.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/MAME 2016.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -8396,7 +8396,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Mame",
-        "path": "Named_Overlays/MAME.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/MAME.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -8503,7 +8503,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Microsoft   Msx",
-        "path": "Named_Overlays/Microsoft - MSX.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Microsoft - MSX.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -8599,7 +8599,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Microsoft   Msx2",
-        "path": "Named_Overlays/Microsoft - MSX2.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Microsoft - MSX2.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -8695,7 +8695,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nec   Pc Engine   Turbografx 16",
-        "path": "Named_Overlays/NEC - PC Engine - TurboGrafx 16.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/NEC - PC Engine - TurboGrafx 16.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -8791,7 +8791,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nec   Pc Engine Cd   Turbografx Cd",
-        "path": "Named_Overlays/NEC - PC Engine CD - TurboGrafx-CD.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/NEC - PC Engine CD - TurboGrafx-CD.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -8887,7 +8887,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nec   Pc Engine Supergrafx",
-        "path": "Named_Overlays/NEC - PC Engine SuperGrafx.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/NEC - PC Engine SuperGrafx.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -8983,7 +8983,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nec   Pc 8001",
-        "path": "Named_Overlays/NEC - PC-8001.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/NEC - PC-8001.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -9079,7 +9079,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nec   Pc 98",
-        "path": "Named_Overlays/NEC - PC-98.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/NEC - PC-98.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -9175,7 +9175,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nec   Pc Fx",
-        "path": "Named_Overlays/NEC - PC-FX.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/NEC - PC-FX.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -9216,7 +9216,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nintendo   Family Computer Disk System",
-        "path": "Named_Overlays/Nintendo - Family Computer Disk System.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Nintendo - Family Computer Disk System.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -9356,7 +9356,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nintendo   Game Boy Advance",
-        "path": "Named_Overlays/Nintendo - Game Boy Advance.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Nintendo - Game Boy Advance.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -9540,7 +9540,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nintendo   Game Boy Color",
-        "path": "Named_Overlays/Nintendo - Game Boy Color.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Nintendo - Game Boy Color.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -9614,7 +9614,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nintendo   Game Boy",
-        "path": "Named_Overlays/Nintendo - Game Boy.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Nintendo - Game Boy.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -9688,7 +9688,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nintendo   Gamecube",
-        "path": "Named_Overlays/Nintendo - GameCube.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Nintendo - GameCube.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -9729,7 +9729,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nintendo   Nintendo 3Ds",
-        "path": "Named_Overlays/Nintendo - Nintendo 3DS.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Nintendo - Nintendo 3DS.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -9770,7 +9770,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nintendo   Nintendo 64",
-        "path": "Named_Overlays/Nintendo - Nintendo 64.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Nintendo - Nintendo 64.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -9822,7 +9822,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nintendo   Nintendo 64Dd",
-        "path": "Named_Overlays/Nintendo - Nintendo 64DD.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Nintendo - Nintendo 64DD.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -9874,7 +9874,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nintendo   Nintendo Ds",
-        "path": "Named_Overlays/Nintendo - Nintendo DS.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Nintendo - Nintendo DS.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -9915,7 +9915,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nintendo   Nintendo Dsi",
-        "path": "Named_Overlays/Nintendo - Nintendo DSi.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Nintendo - Nintendo DSi.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -9956,7 +9956,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nintendo   Nintendo Entertainment System",
-        "path": "Named_Overlays/Nintendo - Nintendo Entertainment System.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Nintendo - Nintendo Entertainment System.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -10096,7 +10096,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nintendo   Pokemon Mini",
-        "path": "Named_Overlays/Nintendo - Pokemon Mini.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Nintendo - Pokemon Mini.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -10170,7 +10170,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nintendo   Satellaview",
-        "path": "Named_Overlays/Nintendo - Satellaview.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Nintendo - Satellaview.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -10233,7 +10233,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nintendo   Sufami Turbo",
-        "path": "Named_Overlays/Nintendo - Sufami Turbo.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Nintendo - Sufami Turbo.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -10296,7 +10296,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nintendo   Super Nintendo Entertainment System",
-        "path": "Named_Overlays/Nintendo - Super Nintendo Entertainment System.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Nintendo - Super Nintendo Entertainment System.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -10359,7 +10359,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nintendo   Virtual Boy",
-        "path": "Named_Overlays/Nintendo - Virtual Boy.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Nintendo - Virtual Boy.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -10400,7 +10400,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nintendo   Wii (Digital)",
-        "path": "Named_Overlays/Nintendo - Wii (Digital).cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Nintendo - Wii (Digital).cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -10573,7 +10573,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nintendo   Wii",
-        "path": "Named_Overlays/Nintendo - Wii.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Nintendo - Wii.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -10746,7 +10746,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Retropad",
-        "path": "Named_Overlays/retropad.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/retropad.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -10908,7 +10908,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Sega   32X",
-        "path": "Named_Overlays/Sega - 32X.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Sega - 32X.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -10982,7 +10982,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Sega   Dreamcast",
-        "path": "Named_Overlays/Sega - Dreamcast.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Sega - Dreamcast.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -11045,7 +11045,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Sega   Game Gear",
-        "path": "Named_Overlays/Sega - Game Gear.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Sega - Game Gear.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -11086,7 +11086,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Sega   Master System   Mark Iii",
-        "path": "Named_Overlays/Sega - Master System - Mark III.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Sega - Master System - Mark III.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -11127,7 +11127,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Sega   Mega Drive   Genesis",
-        "path": "Named_Overlays/Sega - Mega Drive - Genesis.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Sega - Mega Drive - Genesis.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -11201,7 +11201,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Sega   Mega Cd   Sega Cd",
-        "path": "Named_Overlays/Sega - Mega-CD - Sega CD.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Sega - Mega-CD - Sega CD.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -11275,7 +11275,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Sega   Saturn",
-        "path": "Named_Overlays/Sega - Saturn.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Sega - Saturn.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -11316,7 +11316,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Sega   Sg 1000",
-        "path": "Named_Overlays/Sega - SG-1000.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Sega - SG-1000.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -11357,7 +11357,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Snk   Neo Geo Cd",
-        "path": "Named_Overlays/SNK - Neo Geo CD.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/SNK - Neo Geo CD.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -11486,7 +11486,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Snk   Neo Geo Pocket Color",
-        "path": "Named_Overlays/SNK - Neo Geo Pocket Color.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/SNK - Neo Geo Pocket Color.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -11560,7 +11560,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Snk   Neo Geo Pocket",
-        "path": "Named_Overlays/SNK - Neo Geo Pocket.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/SNK - Neo Geo Pocket.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -11634,7 +11634,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Snk   Neo Geo",
-        "path": "Named_Overlays/SNK - Neo Geo.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/SNK - Neo Geo.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -11763,7 +11763,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Sony   Playstation 2",
-        "path": "Named_Overlays/Sony - PlayStation 2.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Sony - PlayStation 2.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -11925,7 +11925,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Sony   Playstation 3 (Psn)",
-        "path": "Named_Overlays/Sony - PlayStation 3 (PSN).cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Sony - PlayStation 3 (PSN).cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -12087,7 +12087,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Sony   Playstation 3",
-        "path": "Named_Overlays/Sony - PlayStation 3.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Sony - PlayStation 3.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -12249,7 +12249,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Sony   Playstation Portable (Psn)",
-        "path": "Named_Overlays/Sony - PlayStation Portable (PSN).cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Sony - PlayStation Portable (PSN).cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -12312,7 +12312,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Sony   Playstation Portable",
-        "path": "Named_Overlays/Sony - PlayStation Portable.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Sony - PlayStation Portable.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -12375,7 +12375,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Sony   Playstation",
-        "path": "Named_Overlays/Sony - PlayStation.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Sony - PlayStation.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -12537,7 +12537,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "The 3Do Company   3Do",
-        "path": "Named_Overlays/The 3DO Company - 3DO.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/The 3DO Company - 3DO.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -12578,7 +12578,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Vircon32",
-        "path": "Named_Overlays/Vircon32.cfg",
+        "path": "overlays_data/gamepads/Named_Overlays/Vircon32.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -12641,7 +12641,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Neo Ds Portrait",
-        "path": "neo-ds-portrait/neo-ds-portrait.cfg",
+        "path": "overlays_data/gamepads/neo-ds-portrait/neo-ds-portrait.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -12671,7 +12671,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Neo Retropad Clear",
-        "path": "neo-retropad/neo-retropad-clear.cfg",
+        "path": "overlays_data/gamepads/neo-retropad/neo-retropad-clear.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -12767,7 +12767,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Neo Retropad Clear_Collapsed",
-        "path": "neo-retropad/neo-retropad-clear_collapsed.cfg",
+        "path": "overlays_data/gamepads/neo-retropad/neo-retropad-clear_collapsed.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -12863,7 +12863,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Neo Retropad",
-        "path": "neo-retropad/neo-retropad.cfg",
+        "path": "overlays_data/gamepads/neo-retropad/neo-retropad.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -13003,7 +13003,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Neo Retropad_Collapsed",
-        "path": "neo-retropad/neo-retropad_collapsed.cfg",
+        "path": "overlays_data/gamepads/neo-retropad/neo-retropad_collapsed.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -13099,7 +13099,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nes",
-        "path": "nes/nes.cfg",
+        "path": "overlays_data/gamepads/nes/nes.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -13151,7 +13151,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nes Small Ab",
-        "path": "nes-small/nes-small-ab.cfg",
+        "path": "overlays_data/gamepads/nes-small/nes-small-ab.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -13170,7 +13170,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nes Small Abxy",
-        "path": "nes-small/nes-small-abxy.cfg",
+        "path": "overlays_data/gamepads/nes-small/nes-small-abxy.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -13189,12 +13189,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "720 Med",
-        "path": "old/720-med.cfg",
+        "path": "overlays_data/gamepads/old/720-med.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/720-med.png",
+                "image": "overlays_data/gamepads/old/720-med.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13205,7 +13205,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/720-med-menu.png",
+                "image": "overlays_data/gamepads/old/720-med-menu.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13219,12 +13219,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Box Gba With Diagonals",
-        "path": "old/box-gba-with-diagonals.cfg",
+        "path": "overlays_data/gamepads/old/box-gba-with-diagonals.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/gba.png",
+                "image": "overlays_data/gamepads/old/gba.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13235,7 +13235,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/gba_portrait.png",
+                "image": "overlays_data/gamepads/old/gba_portrait.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13246,7 +13246,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/gba_quickmenu.png",
+                "image": "overlays_data/gamepads/old/gba_quickmenu.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13257,7 +13257,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 3",
-                "image": "old/gba_next.png",
+                "image": "overlays_data/gamepads/old/gba_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13271,12 +13271,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Box Gba",
-        "path": "old/box-gba.cfg",
+        "path": "overlays_data/gamepads/old/box-gba.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/gba.png",
+                "image": "overlays_data/gamepads/old/gba.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13287,7 +13287,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/gba_portrait.png",
+                "image": "overlays_data/gamepads/old/gba_portrait.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13298,7 +13298,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/gba_quickmenu.png",
+                "image": "overlays_data/gamepads/old/gba_quickmenu.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13309,7 +13309,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 3",
-                "image": "old/gba_next.png",
+                "image": "overlays_data/gamepads/old/gba_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13323,12 +13323,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Box Ps With Diagonals",
-        "path": "old/box-ps-with-diagonals.cfg",
+        "path": "overlays_data/gamepads/old/box-ps-with-diagonals.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/ps.png",
+                "image": "overlays_data/gamepads/old/ps.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13339,7 +13339,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/ps_portrait.png",
+                "image": "overlays_data/gamepads/old/ps_portrait.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13350,7 +13350,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/ps_quickmenu.png",
+                "image": "overlays_data/gamepads/old/ps_quickmenu.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13361,7 +13361,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 3",
-                "image": "old/ps_next.png",
+                "image": "overlays_data/gamepads/old/ps_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13375,12 +13375,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Box Psx",
-        "path": "old/box-psx.cfg",
+        "path": "overlays_data/gamepads/old/box-psx.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/ps.png",
+                "image": "overlays_data/gamepads/old/ps.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13391,7 +13391,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/ps_portrait.png",
+                "image": "overlays_data/gamepads/old/ps_portrait.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13402,7 +13402,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/ps_quickmenu.png",
+                "image": "overlays_data/gamepads/old/ps_quickmenu.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13413,7 +13413,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 3",
-                "image": "old/ps_next.png",
+                "image": "overlays_data/gamepads/old/ps_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13427,12 +13427,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gameboy Landscape",
-        "path": "old/gameboy-landscape.cfg",
+        "path": "overlays_data/gamepads/old/gameboy-landscape.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/gameboy-landscape.png",
+                "image": "overlays_data/gamepads/old/gameboy-landscape.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13443,7 +13443,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/nintendo_quickmenu_small.png",
+                "image": "overlays_data/gamepads/old/nintendo_quickmenu_small.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13454,7 +13454,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/nintendo_next.png",
+                "image": "overlays_data/gamepads/old/nintendo_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13468,12 +13468,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gameboy Portrait",
-        "path": "old/gameboy-portrait.cfg",
+        "path": "overlays_data/gamepads/old/gameboy-portrait.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/gameboy-portrait.png",
+                "image": "overlays_data/gamepads/old/gameboy-portrait.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13484,7 +13484,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/nintendo_quickmenu_small2.png",
+                "image": "overlays_data/gamepads/old/nintendo_quickmenu_small2.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13495,7 +13495,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/nintendo_next.png",
+                "image": "overlays_data/gamepads/old/nintendo_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13509,12 +13509,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Genesis3 Landscape",
-        "path": "old/genesis3-landscape.cfg",
+        "path": "overlays_data/gamepads/old/genesis3-landscape.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/genesis3-landscape.png",
+                "image": "overlays_data/gamepads/old/genesis3-landscape.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13525,7 +13525,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/genesis_quickmenu_small.png",
+                "image": "overlays_data/gamepads/old/genesis_quickmenu_small.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13536,7 +13536,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/genesis_next.png",
+                "image": "overlays_data/gamepads/old/genesis_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13550,12 +13550,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Genesis3 Portrait",
-        "path": "old/genesis3-portrait.cfg",
+        "path": "overlays_data/gamepads/old/genesis3-portrait.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/genesis3-portrait.png",
+                "image": "overlays_data/gamepads/old/genesis3-portrait.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13566,7 +13566,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/genesis_quickmenu_small2.png",
+                "image": "overlays_data/gamepads/old/genesis_quickmenu_small2.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13577,7 +13577,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/genesis_next.png",
+                "image": "overlays_data/gamepads/old/genesis_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13591,12 +13591,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Genesis6 Landscape",
-        "path": "old/genesis6-landscape.cfg",
+        "path": "overlays_data/gamepads/old/genesis6-landscape.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/genesis6-landscape.png",
+                "image": "overlays_data/gamepads/old/genesis6-landscape.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13607,7 +13607,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/genesis_quickmenu_small.png",
+                "image": "overlays_data/gamepads/old/genesis_quickmenu_small.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13618,7 +13618,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/genesis_next.png",
+                "image": "overlays_data/gamepads/old/genesis_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13632,12 +13632,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Genesis6 Portrait",
-        "path": "old/genesis6-portrait.cfg",
+        "path": "overlays_data/gamepads/old/genesis6-portrait.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/genesis6-portrait.png",
+                "image": "overlays_data/gamepads/old/genesis6-portrait.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13648,7 +13648,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/genesis_quickmenu_small2.png",
+                "image": "overlays_data/gamepads/old/genesis_quickmenu_small2.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13659,7 +13659,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/genesis_next.png",
+                "image": "overlays_data/gamepads/old/genesis_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13673,12 +13673,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Lynx Landscape",
-        "path": "old/lynx-landscape.cfg",
+        "path": "overlays_data/gamepads/old/lynx-landscape.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/lynx-landscape.png",
+                "image": "overlays_data/gamepads/old/lynx-landscape.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13692,12 +13692,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nes Landscape",
-        "path": "old/nes-landscape.cfg",
+        "path": "overlays_data/gamepads/old/nes-landscape.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/nes-landscape.png",
+                "image": "overlays_data/gamepads/old/nes-landscape.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13708,7 +13708,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/nintendo_quickmenu_small.png",
+                "image": "overlays_data/gamepads/old/nintendo_quickmenu_small.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13719,7 +13719,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/nintendo_next.png",
+                "image": "overlays_data/gamepads/old/nintendo_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13733,12 +13733,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nes Portrait",
-        "path": "old/nes-portrait.cfg",
+        "path": "overlays_data/gamepads/old/nes-portrait.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/nes-portrait.png",
+                "image": "overlays_data/gamepads/old/nes-portrait.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13749,7 +13749,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/nintendo_quickmenu_small2.png",
+                "image": "overlays_data/gamepads/old/nintendo_quickmenu_small2.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13760,7 +13760,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/nintendo_next.png",
+                "image": "overlays_data/gamepads/old/nintendo_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13774,12 +13774,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Psx Landscape",
-        "path": "old/psx-landscape.cfg",
+        "path": "overlays_data/gamepads/old/psx-landscape.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/psx-landscape.png",
+                "image": "overlays_data/gamepads/old/psx-landscape.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13790,7 +13790,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/psx_quickmenu_small.png",
+                "image": "overlays_data/gamepads/old/psx_quickmenu_small.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13801,7 +13801,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/psx_next.png",
+                "image": "overlays_data/gamepads/old/psx_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13815,12 +13815,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Psx Portrait",
-        "path": "old/psx-portrait.cfg",
+        "path": "overlays_data/gamepads/old/psx-portrait.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/psx-portrait.png",
+                "image": "overlays_data/gamepads/old/psx-portrait.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13831,7 +13831,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/psx_quickmenu_small2.png",
+                "image": "overlays_data/gamepads/old/psx_quickmenu_small2.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13842,7 +13842,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/psx_next.png",
+                "image": "overlays_data/gamepads/old/psx_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13856,12 +13856,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Snes Landscape",
-        "path": "old/snes-landscape.cfg",
+        "path": "overlays_data/gamepads/old/snes-landscape.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/snes-landscape.png",
+                "image": "overlays_data/gamepads/old/snes-landscape.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13872,7 +13872,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/nintendo_quickmenu_small.png",
+                "image": "overlays_data/gamepads/old/nintendo_quickmenu_small.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13883,7 +13883,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/nintendo_next.png",
+                "image": "overlays_data/gamepads/old/nintendo_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13897,12 +13897,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Snes Portrait",
-        "path": "old/snes-portrait.cfg",
+        "path": "overlays_data/gamepads/old/snes-portrait.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/snes-portrait.png",
+                "image": "overlays_data/gamepads/old/snes-portrait.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13913,7 +13913,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/nintendo_quickmenu_small2.png",
+                "image": "overlays_data/gamepads/old/nintendo_quickmenu_small2.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13924,7 +13924,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/nintendo_next.png",
+                "image": "overlays_data/gamepads/old/nintendo_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13938,12 +13938,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Basic_Overlay",
-        "path": "old/Low-resolution/basic_overlay.cfg",
+        "path": "overlays_data/gamepads/old/Low-resolution/basic_overlay.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/Low-resolution/basic_overlay.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/basic_overlay.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13954,7 +13954,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/Low-resolution/basic_quickmenu_small.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/basic_quickmenu_small.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13965,7 +13965,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/Low-resolution/basic_next.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/basic_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13979,12 +13979,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Basic_Overlay_Portrait",
-        "path": "old/Low-resolution/basic_overlay_portrait.cfg",
+        "path": "overlays_data/gamepads/old/Low-resolution/basic_overlay_portrait.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/Low-resolution/basic_overlay.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/basic_overlay.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -13995,7 +13995,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/Low-resolution/basic_quickmenu_small.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/basic_quickmenu_small.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14006,7 +14006,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/Low-resolution/basic_next.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/basic_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14020,12 +14020,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Opium_2",
-        "path": "old/Low-resolution/opium_2.cfg",
+        "path": "overlays_data/gamepads/old/Low-resolution/opium_2.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/Low-resolution/opium_2.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/opium_2.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14036,7 +14036,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/Low-resolution/basic_quickmenu_small.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/basic_quickmenu_small.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14047,7 +14047,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/Low-resolution/basic_next.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/basic_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14061,12 +14061,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Opium_3",
-        "path": "old/Low-resolution/opium_3.cfg",
+        "path": "overlays_data/gamepads/old/Low-resolution/opium_3.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/Low-resolution/opium_3.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/opium_3.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14077,7 +14077,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/Low-resolution/basic_quickmenu_small.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/basic_quickmenu_small.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14088,7 +14088,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/Low-resolution/basic_next.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/basic_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14102,12 +14102,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Opium_4",
-        "path": "old/Low-resolution/opium_4.cfg",
+        "path": "overlays_data/gamepads/old/Low-resolution/opium_4.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/Low-resolution/opium_4.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/opium_4.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14118,7 +14118,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/Low-resolution/basic_quickmenu_small.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/basic_quickmenu_small.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14129,7 +14129,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/Low-resolution/basic_next.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/basic_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14143,12 +14143,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Opium_5",
-        "path": "old/Low-resolution/opium_5.cfg",
+        "path": "overlays_data/gamepads/old/Low-resolution/opium_5.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/Low-resolution/opium_5.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/opium_5.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14159,7 +14159,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/Low-resolution/basic_quickmenu_small.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/basic_quickmenu_small.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14170,7 +14170,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/Low-resolution/basic_next.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/basic_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14184,12 +14184,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Opium_5B",
-        "path": "old/Low-resolution/opium_5b.cfg",
+        "path": "overlays_data/gamepads/old/Low-resolution/opium_5b.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/Low-resolution/opium_5b.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/opium_5b.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14200,7 +14200,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/Low-resolution/basic_quickmenu_small.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/basic_quickmenu_small.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14211,7 +14211,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/Low-resolution/basic_next.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/basic_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14225,12 +14225,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Opium_6",
-        "path": "old/Low-resolution/opium_6.cfg",
+        "path": "overlays_data/gamepads/old/Low-resolution/opium_6.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/Low-resolution/opium_6.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/opium_6.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14241,7 +14241,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/Low-resolution/basic_quickmenu_small.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/basic_quickmenu_small.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14252,7 +14252,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/Low-resolution/basic_next.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/basic_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14266,12 +14266,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Opium_7",
-        "path": "old/Low-resolution/opium_7.cfg",
+        "path": "overlays_data/gamepads/old/Low-resolution/opium_7.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/Low-resolution/opium_7.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/opium_7.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14282,7 +14282,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/Low-resolution/basic_quickmenu_small.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/basic_quickmenu_small.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14293,7 +14293,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/Low-resolution/basic_next.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/basic_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14307,12 +14307,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Opium_8",
-        "path": "old/Low-resolution/opium_8.cfg",
+        "path": "overlays_data/gamepads/old/Low-resolution/opium_8.cfg",
         "category": "Gamepads",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "old/Low-resolution/opium_8.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/opium_8.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14323,7 +14323,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "old/Low-resolution/basic_quickmenu_small.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/basic_quickmenu_small.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14334,7 +14334,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 2",
-                "image": "old/Low-resolution/basic_next.png",
+                "image": "overlays_data/gamepads/old/Low-resolution/basic_next.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -14348,7 +14348,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Piixel Retropad",
-        "path": "Piixel-Gamepads/Piixel Retropad/Piixel Retropad.cfg",
+        "path": "overlays_data/gamepads/Piixel-Gamepads/Piixel Retropad/Piixel Retropad.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -14510,7 +14510,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Piixel Retropad Neo",
-        "path": "Piixel-Gamepads/Retropad/Piixel Retropad Neo.cfg",
+        "path": "overlays_data/gamepads/Piixel-Gamepads/Retropad/Piixel Retropad Neo.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -14661,7 +14661,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Piixel Retropad",
-        "path": "Piixel-Gamepads/Retropad/Piixel Retropad.cfg",
+        "path": "overlays_data/gamepads/Piixel-Gamepads/Retropad/Piixel Retropad.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -14812,7 +14812,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Box Psx Diagonals",
-        "path": "psx/box-psx-diagonals.cfg",
+        "path": "overlays_data/gamepads/psx/box-psx-diagonals.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -14864,7 +14864,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Psx",
-        "path": "psx/psx.cfg",
+        "path": "overlays_data/gamepads/psx/psx.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -14916,7 +14916,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Quadpad",
-        "path": "quadpad/quadpad.cfg",
+        "path": "overlays_data/gamepads/quadpad/quadpad.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -14968,7 +14968,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Retropad",
-        "path": "retropad/retropad.cfg",
+        "path": "overlays_data/gamepads/retropad/retropad.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -15086,7 +15086,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Rgpad_Modern",
-        "path": "rgpad/rgpad_modern.cfg",
+        "path": "overlays_data/gamepads/rgpad/rgpad_modern.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -15270,7 +15270,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Rgpad_Retro",
-        "path": "rgpad/rgpad_retro.cfg",
+        "path": "overlays_data/gamepads/rgpad/rgpad_retro.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -15454,7 +15454,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Scummvm_Mousemode",
-        "path": "scummvm/scummvm_mousemode.cfg",
+        "path": "overlays_data/gamepads/scummvm/scummvm_mousemode.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -15484,7 +15484,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Snes",
-        "path": "snes/snes.cfg",
+        "path": "overlays_data/gamepads/snes/snes.cfg",
         "category": "Gamepads",
         "modes": [
             {
@@ -15536,12 +15536,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Retro Classic",
-        "path": "retro-classic.cfg",
+        "path": "overlays_data/extra/retro-classic.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Mode 0",
-                "image": "retro-classic-p.svg",
+                "image": "overlays_data/extra/retro-classic-p.svg",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -15552,7 +15552,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Mode 1",
-                "image": "retro-classic-l.svg",
+                "image": "overlays_data/extra/retro-classic-l.svg",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -15566,12 +15566,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gb_Portrait_Beige",
-        "path": "Touch-Overlays/Phone/GB/gb_portrait_beige.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone/GB/gb_portrait_beige.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Gb_phone_portrait_beige",
-                "image": "Touch-Overlays/Phone/GB/gb_portrait_beige.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/GB/gb_portrait_beige.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -15582,7 +15582,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone/GB/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/GB/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -15604,7 +15604,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone/GB/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/GB/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -15618,12 +15618,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gba_Phone_Red",
-        "path": "Touch-Overlays/Phone/GBA/gba_phone_red.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone/GBA/gba_phone_red.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Gba_phone_portrait_red",
-                "image": "Touch-Overlays/Phone/GBA/gba_phone_portrait_red.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/GBA/gba_phone_portrait_red.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -15634,7 +15634,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone/GBA/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/GBA/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -15656,7 +15656,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone/GBA/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/GBA/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -15670,12 +15670,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gba_Phone_Yellow",
-        "path": "Touch-Overlays/Phone/GBA/gba_phone_yellow.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone/GBA/gba_phone_yellow.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Gba_phone_portrait_yellow",
-                "image": "Touch-Overlays/Phone/GBA/gba_phone_portrait_yellow.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/GBA/gba_phone_portrait_yellow.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -15686,7 +15686,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone/GBA/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/GBA/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -15708,7 +15708,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone/GBA/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/GBA/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -15722,12 +15722,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gba_Phone_Yellow_Animated",
-        "path": "Touch-Overlays/Phone/GBA/gba_phone_yellow_animated.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone/GBA/gba_phone_yellow_animated.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Gba_phone_portrait_yellow_animated",
-                "image": "Touch-Overlays/Phone/GBA/gba_phone_portrait_yellow_animated.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/GBA/gba_phone_portrait_yellow_animated.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -15738,7 +15738,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone/GBA/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/GBA/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -15760,7 +15760,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone/GBA/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/GBA/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -15774,12 +15774,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gbc_Phone_Animated_Blue",
-        "path": "Touch-Overlays/Phone/GBC/gbc_phone_animated_blue.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone/GBC/gbc_phone_animated_blue.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Gbc_phone_portrait_animated_blue",
-                "image": "Touch-Overlays/Phone/GBC/gbc_phone_portrait_animated.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/GBC/gbc_phone_portrait_animated.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -15790,7 +15790,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone/GBC/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/GBC/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -15812,7 +15812,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone/GBC/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/GBC/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -15826,12 +15826,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gbc_Phone_Yellow",
-        "path": "Touch-Overlays/Phone/GBC/gbc_phone_yellow.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone/GBC/gbc_phone_yellow.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Gbc_phone_portrait_yellow",
-                "image": "Touch-Overlays/Phone/GBC/gbc_phone_portrait_yellow.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/GBC/gbc_phone_portrait_yellow.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -15842,7 +15842,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone/GBC/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/GBC/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -15864,7 +15864,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone/GBC/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/GBC/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -15878,12 +15878,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Genesis_Grey",
-        "path": "Touch-Overlays/Phone/GENESIS/genesis_grey.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone/GENESIS/genesis_grey.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Genesis_phone_portrait_grey",
-                "image": "Touch-Overlays/Phone/GENESIS/genesis_portrait_grey.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/GENESIS/genesis_portrait_grey.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -15894,7 +15894,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone/GENESIS/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/GENESIS/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -15916,7 +15916,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone/GENESIS/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/GENESIS/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -15930,12 +15930,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "N64_Phone_Green",
-        "path": "Touch-Overlays/Phone/N64/n64_phone_green.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone/N64/n64_phone_green.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "N64_phone_portrait_green",
-                "image": "Touch-Overlays/Phone/N64/n64_phone_portrait_green.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/N64/n64_phone_portrait_green.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -15946,7 +15946,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone/N64/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/N64/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -15968,7 +15968,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone/N64/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/N64/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -15982,12 +15982,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nds_Phone_Black",
-        "path": "Touch-Overlays/Phone/NDS/nds_phone_black.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone/NDS/nds_phone_black.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Nds_phone_portrait_black",
-                "image": "Touch-Overlays/Phone/NDS/nds_phone_portrait_black.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/NDS/nds_phone_portrait_black.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -15998,7 +15998,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone/NDS/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/NDS/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16020,7 +16020,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone/NDS/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/NDS/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -16034,12 +16034,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nds_Phone_White",
-        "path": "Touch-Overlays/Phone/NDS/nds_phone_white.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone/NDS/nds_phone_white.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Nds_phone_portrait_white",
-                "image": "Touch-Overlays/Phone/NDS/nds_phone_portrait_white.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/NDS/nds_phone_portrait_white.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16050,7 +16050,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone/NDS/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/NDS/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16072,7 +16072,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone/NDS/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/NDS/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -16086,12 +16086,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nds_Phone_White_Animated",
-        "path": "Touch-Overlays/Phone/NDS/nds_phone_white_animated.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone/NDS/nds_phone_white_animated.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Nds_phone_portrait_white",
-                "image": "Touch-Overlays/Phone/NDS/nds_phone_portrait_animated_white.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/NDS/nds_phone_portrait_animated_white.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16102,7 +16102,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone/NDS/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/NDS/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16124,7 +16124,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone/NDS/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/NDS/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -16138,12 +16138,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nes_Phone_Beige",
-        "path": "Touch-Overlays/Phone/NES/nes_phone_beige.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone/NES/nes_phone_beige.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Nes_phone_portrait_beige",
-                "image": "Touch-Overlays/Phone/NES/nes_phone_portrait_beige.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/NES/nes_phone_portrait_beige.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16154,7 +16154,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone/NES/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/NES/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16176,7 +16176,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone/NES/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/NES/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -16190,12 +16190,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Psp_Phone_White",
-        "path": "Touch-Overlays/Phone/PSP/psp_phone_white.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone/PSP/psp_phone_white.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Psp_phone_portrait_white",
-                "image": "Touch-Overlays/Phone/PSP/psp_phone_portrait_white.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/PSP/psp_phone_portrait_white.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16206,7 +16206,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone/PSP/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/PSP/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16228,7 +16228,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone/PSP/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/PSP/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -16242,12 +16242,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Psx_Phone_Beige",
-        "path": "Touch-Overlays/Phone/PSX/psx_phone_beige.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone/PSX/psx_phone_beige.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Psx_phone_portrait_beige",
-                "image": "Touch-Overlays/Phone/PSX/psx_phone_portrait_beige.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/PSX/psx_phone_portrait_beige.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16258,7 +16258,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone/PSX/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/PSX/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16280,7 +16280,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone/PSX/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/PSX/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -16294,7 +16294,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Psx_Phone_Transparent",
-        "path": "Touch-Overlays/Phone/PSX/psx_phone_transparent.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone/PSX/psx_phone_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
@@ -16310,7 +16310,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone/PSX/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/PSX/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16332,7 +16332,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone/PSX/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/PSX/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -16346,12 +16346,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Saturn_Black",
-        "path": "Touch-Overlays/Phone/SATURN/saturn_black.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone/SATURN/saturn_black.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Saturn_phone_portrait_black",
-                "image": "Touch-Overlays/Phone/SATURN/saturn_portrait_black.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/SATURN/saturn_portrait_black.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16362,7 +16362,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone/SATURN/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/SATURN/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16384,7 +16384,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone/SATURN/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/SATURN/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -16395,7 +16395,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Portrait-stick",
-                "image": "Touch-Overlays/Phone/SATURN/saturn_portrait_black_stick.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/SATURN/saturn_portrait_black_stick.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16409,12 +16409,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Snes_Phone_Purple",
-        "path": "Touch-Overlays/Phone/SNES/snes_phone_purple.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone/SNES/snes_phone_purple.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Snes_phone_portrait_purple",
-                "image": "Touch-Overlays/Phone/SNES/snes_phone_portrait_purple.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/SNES/snes_phone_portrait_purple.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16425,7 +16425,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone/SNES/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/SNES/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16447,7 +16447,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone/SNES/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone/SNES/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -16461,12 +16461,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gb_Portrait_Beige",
-        "path": "Touch-Overlays/Phone-Taller/GB/gb_portrait_beige.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone-Taller/GB/gb_portrait_beige.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Gb_phone_portrait_beige",
-                "image": "Touch-Overlays/Phone-Taller/GB/gb_portrait_beige.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/GB/gb_portrait_beige.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16477,7 +16477,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone-Taller/GB/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/GB/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16499,7 +16499,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone-Taller/GB/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/GB/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -16513,12 +16513,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gba_Phone_Red",
-        "path": "Touch-Overlays/Phone-Taller/GBA/gba_phone_red.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone-Taller/GBA/gba_phone_red.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Gba_phone_portrait_red",
-                "image": "Touch-Overlays/Phone-Taller/GBA/gba_phone_portrait_red.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/GBA/gba_phone_portrait_red.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16529,7 +16529,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone-Taller/GBA/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/GBA/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16551,7 +16551,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone-Taller/GBA/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/GBA/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -16565,12 +16565,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gba_Phone_Yellow",
-        "path": "Touch-Overlays/Phone-Taller/GBA/gba_phone_yellow.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone-Taller/GBA/gba_phone_yellow.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Gba_phone_portrait_yellow",
-                "image": "Touch-Overlays/Phone-Taller/GBA/gba_phone_portrait_yellow.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/GBA/gba_phone_portrait_yellow.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16581,7 +16581,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone-Taller/GBA/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/GBA/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16603,7 +16603,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone-Taller/GBA/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/GBA/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -16617,12 +16617,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gba_Phone_Yellow_Animated",
-        "path": "Touch-Overlays/Phone-Taller/GBA/gba_phone_yellow_animated.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone-Taller/GBA/gba_phone_yellow_animated.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Gba_phone_portrait_yellow_animated",
-                "image": "Touch-Overlays/Phone-Taller/GBA/gba_phone_portrait_yellow_animated.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/GBA/gba_phone_portrait_yellow_animated.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16633,7 +16633,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone-Taller/GBA/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/GBA/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16655,7 +16655,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone-Taller/GBA/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/GBA/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -16669,12 +16669,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gbc_Phone_Animated_Blue",
-        "path": "Touch-Overlays/Phone-Taller/GBC/gbc_phone_animated_blue.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone-Taller/GBC/gbc_phone_animated_blue.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Gbc_phone_portrait_animated_blue",
-                "image": "Touch-Overlays/Phone-Taller/GBC/gbc_phone_portrait_animated_blue.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/GBC/gbc_phone_portrait_animated_blue.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16685,7 +16685,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone-Taller/GBC/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/GBC/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16707,7 +16707,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone-Taller/GBC/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/GBC/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -16721,12 +16721,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gbc_Phone_Yellow",
-        "path": "Touch-Overlays/Phone-Taller/GBC/gbc_phone_yellow.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone-Taller/GBC/gbc_phone_yellow.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Gbc_phone_portrait_yellow",
-                "image": "Touch-Overlays/Phone-Taller/GBC/gbc_phone_portrait_yellow.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/GBC/gbc_phone_portrait_yellow.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16737,7 +16737,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone-Taller/GBC/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/GBC/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16759,7 +16759,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone-Taller/GBC/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/GBC/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -16773,12 +16773,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Genesis_Grey",
-        "path": "Touch-Overlays/Phone-Taller/GENESIS/genesis_grey.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone-Taller/GENESIS/genesis_grey.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Genesis_phone_portrait_grey",
-                "image": "Touch-Overlays/Phone-Taller/GENESIS/genesis_portrait_grey.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/GENESIS/genesis_portrait_grey.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16789,7 +16789,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone-Taller/GENESIS/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/GENESIS/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16811,7 +16811,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone-Taller/GENESIS/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/GENESIS/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -16825,12 +16825,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "N64_Phone_Green",
-        "path": "Touch-Overlays/Phone-Taller/N64/n64_phone_green.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone-Taller/N64/n64_phone_green.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "N64_phone_portrait_green",
-                "image": "Touch-Overlays/Phone-Taller/N64/n64_phone_portrait_green.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/N64/n64_phone_portrait_green.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16841,7 +16841,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone-Taller/N64/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/N64/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16863,7 +16863,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone-Taller/N64/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/N64/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -16877,12 +16877,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nds_Phone_Black",
-        "path": "Touch-Overlays/Phone-Taller/NDS/nds_phone_black.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone-Taller/NDS/nds_phone_black.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Nds_phone_portrait_black",
-                "image": "Touch-Overlays/Phone-Taller/NDS/nds_phone_portrait_black.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/NDS/nds_phone_portrait_black.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16893,7 +16893,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone-Taller/NDS/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/NDS/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16915,7 +16915,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone-Taller/NDS/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/NDS/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -16929,12 +16929,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nds_Phone_White",
-        "path": "Touch-Overlays/Phone-Taller/NDS/nds_phone_white.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone-Taller/NDS/nds_phone_white.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Nds_phone_portrait_white",
-                "image": "Touch-Overlays/Phone-Taller/NDS/nds_phone_portrait_white.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/NDS/nds_phone_portrait_white.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16945,7 +16945,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone-Taller/NDS/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/NDS/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16967,7 +16967,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone-Taller/NDS/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/NDS/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -16981,12 +16981,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nds_Phone_White_Animated",
-        "path": "Touch-Overlays/Phone-Taller/NDS/nds_phone_white_animated.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone-Taller/NDS/nds_phone_white_animated.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Nds_phone_portrait_white",
-                "image": "Touch-Overlays/Phone-Taller/NDS/nds_phone_portrait_animated_white.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/NDS/nds_phone_portrait_animated_white.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -16997,7 +16997,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone-Taller/NDS/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/NDS/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17019,7 +17019,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone-Taller/NDS/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/NDS/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -17033,12 +17033,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nes_Phone_Beige",
-        "path": "Touch-Overlays/Phone-Taller/NES/nes_phone_beige.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone-Taller/NES/nes_phone_beige.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Nes_phone_portrait_beige",
-                "image": "Touch-Overlays/Phone-Taller/NES/nes_phone_portrait_beige.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/NES/nes_phone_portrait_beige.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17049,7 +17049,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone-Taller/NES/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/NES/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17071,7 +17071,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone-Taller/NES/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/NES/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -17085,12 +17085,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Psp_Phone_White",
-        "path": "Touch-Overlays/Phone-Taller/PSP/psp_phone_white.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone-Taller/PSP/psp_phone_white.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Psp_phone_portrait_white",
-                "image": "Touch-Overlays/Phone-Taller/PSP/psp_phone_portrait_white.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/PSP/psp_phone_portrait_white.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17101,7 +17101,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone-Taller/PSP/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/PSP/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17123,7 +17123,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone-Taller/PSP/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/PSP/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -17137,12 +17137,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Psx_Phone_Beige",
-        "path": "Touch-Overlays/Phone-Taller/PSX/psx_phone_beige.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone-Taller/PSX/psx_phone_beige.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Psx_phone_portrait_beige",
-                "image": "Touch-Overlays/Phone-Taller/PSX/psx_phone_portrait_beige.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/PSX/psx_phone_portrait_beige.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17153,7 +17153,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone-Taller/PSX/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/PSX/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17175,7 +17175,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone-Taller/PSX/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/PSX/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -17189,7 +17189,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Psx_Phone_Transparent",
-        "path": "Touch-Overlays/Phone-Taller/PSX/psx_phone_transparent.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone-Taller/PSX/psx_phone_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
@@ -17205,7 +17205,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone-Taller/PSX/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/PSX/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17227,7 +17227,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone-Taller/PSX/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/PSX/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -17241,12 +17241,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Saturn_Black",
-        "path": "Touch-Overlays/Phone-Taller/SATURN/saturn_black.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone-Taller/SATURN/saturn_black.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Saturn_phone_portrait_black",
-                "image": "Touch-Overlays/Phone-Taller/SATURN/saturn_portrait_black.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/SATURN/saturn_portrait_black.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17257,7 +17257,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone-Taller/SATURN/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/SATURN/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17279,7 +17279,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone-Taller/SATURN/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/SATURN/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -17290,7 +17290,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Portrait-stick",
-                "image": "Touch-Overlays/Phone-Taller/SATURN/saturn_portrait_black_stick.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/SATURN/saturn_portrait_black_stick.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17304,12 +17304,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Snes_Phone_Purple",
-        "path": "Touch-Overlays/Phone-Taller/SNES/snes_phone_purple.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone-Taller/SNES/snes_phone_purple.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Snes_phone_portrait_purple",
-                "image": "Touch-Overlays/Phone-Taller/SNES/snes_phone_portrait_purple.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/SNES/snes_phone_portrait_purple.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17320,7 +17320,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone-Taller/SNES/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/SNES/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17342,7 +17342,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone-Taller/SNES/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/SNES/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -17356,12 +17356,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Snes_Phone_Transparent",
-        "path": "Touch-Overlays/Phone-Taller/SNES/snes_phone_transparent.cfg",
+        "path": "overlays_data/extra/Touch-Overlays/Phone-Taller/SNES/snes_phone_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Snes_phone_portrait_transparent",
-                "image": "Touch-Overlays/Phone-Taller/SNES/snes_phone_portrait_transparent.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/SNES/snes_phone_portrait_transparent.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17372,7 +17372,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Touch-Overlays/Phone-Taller/SNES/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/SNES/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17394,7 +17394,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Touch-Overlays/Phone-Taller/SNES/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Touch-Overlays/Phone-Taller/SNES/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -17408,12 +17408,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gb_Portrait_Transparent",
-        "path": "Transparent-Touch-Overlays/Phone/GB/gb_portrait_transparent.cfg",
+        "path": "overlays_data/extra/Transparent-Touch-Overlays/Phone/GB/gb_portrait_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Gb_phone_portrait_transparent",
-                "image": "Transparent-Touch-Overlays/Phone/GB/gb_portrait_transparent.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/GB/gb_portrait_transparent.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17424,7 +17424,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Transparent-Touch-Overlays/Phone/GB/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/GB/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17446,7 +17446,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Transparent-Touch-Overlays/Phone/GB/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/GB/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -17460,12 +17460,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gba_Phone_Transparent",
-        "path": "Transparent-Touch-Overlays/Phone/GBA/gba_phone_transparent.cfg",
+        "path": "overlays_data/extra/Transparent-Touch-Overlays/Phone/GBA/gba_phone_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Gba_phone_portrait_transparent",
-                "image": "Transparent-Touch-Overlays/Phone/GBA/gba_phone_portrait_transparent.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/GBA/gba_phone_portrait_transparent.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17476,7 +17476,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Transparent-Touch-Overlays/Phone/GBA/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/GBA/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17498,7 +17498,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Transparent-Touch-Overlays/Phone/GBA/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/GBA/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -17512,12 +17512,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gbc_Phone_Transparent",
-        "path": "Transparent-Touch-Overlays/Phone/GBC/gbc_phone_transparent.cfg",
+        "path": "overlays_data/extra/Transparent-Touch-Overlays/Phone/GBC/gbc_phone_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Gbc_phone_portrait_transparent",
-                "image": "Transparent-Touch-Overlays/Phone/GBC/gbc_phone_portrait_transparent.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/GBC/gbc_phone_portrait_transparent.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17528,7 +17528,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Transparent-Touch-Overlays/Phone/GBC/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/GBC/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17550,7 +17550,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Transparent-Touch-Overlays/Phone/GBC/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/GBC/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -17564,12 +17564,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Genesis_Transparent",
-        "path": "Transparent-Touch-Overlays/Phone/GENESIS/genesis_transparent.cfg",
+        "path": "overlays_data/extra/Transparent-Touch-Overlays/Phone/GENESIS/genesis_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Genesis_phone_portrait_transparent",
-                "image": "Transparent-Touch-Overlays/Phone/GENESIS/genesis_portrait_transparent.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/GENESIS/genesis_portrait_transparent.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17580,7 +17580,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Transparent-Touch-Overlays/Phone/GENESIS/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/GENESIS/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17602,7 +17602,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Transparent-Touch-Overlays/Phone/GENESIS/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/GENESIS/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -17616,12 +17616,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "N64_Phone_Transparent",
-        "path": "Transparent-Touch-Overlays/Phone/N64/n64_phone_transparent.cfg",
+        "path": "overlays_data/extra/Transparent-Touch-Overlays/Phone/N64/n64_phone_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "N64_phone_portrait_transparent",
-                "image": "Transparent-Touch-Overlays/Phone/N64/n64_phone_portrait_transparent.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/N64/n64_phone_portrait_transparent.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17632,7 +17632,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Transparent-Touch-Overlays/Phone/N64/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/N64/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17654,7 +17654,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Transparent-Touch-Overlays/Phone/N64/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/N64/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -17668,12 +17668,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nds_Phone_Transparent",
-        "path": "Transparent-Touch-Overlays/Phone/NDS/nds_phone_transparent.cfg",
+        "path": "overlays_data/extra/Transparent-Touch-Overlays/Phone/NDS/nds_phone_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Nds_phone_portrait_transparent",
-                "image": "Transparent-Touch-Overlays/Phone/NDS/nds_phone_portrait_transparent.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/NDS/nds_phone_portrait_transparent.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17684,7 +17684,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Transparent-Touch-Overlays/Phone/NDS/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/NDS/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17706,7 +17706,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Transparent-Touch-Overlays/Phone/NDS/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/NDS/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -17720,12 +17720,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nes_Phone_Transparent",
-        "path": "Transparent-Touch-Overlays/Phone/NES/nes_phone_transparent.cfg",
+        "path": "overlays_data/extra/Transparent-Touch-Overlays/Phone/NES/nes_phone_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Nes_phone_portrait_transparent",
-                "image": "Transparent-Touch-Overlays/Phone/NES/nes_phone_portrait_transparent.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/NES/nes_phone_portrait_transparent.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17736,7 +17736,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Transparent-Touch-Overlays/Phone/NES/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/NES/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17758,7 +17758,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Transparent-Touch-Overlays/Phone/NES/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/NES/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -17772,12 +17772,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Psp_Phone_Transparent",
-        "path": "Transparent-Touch-Overlays/Phone/PSP/psp_phone_transparent.cfg",
+        "path": "overlays_data/extra/Transparent-Touch-Overlays/Phone/PSP/psp_phone_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Psp_phone_portrait_transparent",
-                "image": "Transparent-Touch-Overlays/Phone/PSP/psp_phone_portrait_transparent.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/PSP/psp_phone_portrait_transparent.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17788,7 +17788,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Transparent-Touch-Overlays/Phone/PSP/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/PSP/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17810,7 +17810,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Transparent-Touch-Overlays/Phone/PSP/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/PSP/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -17824,12 +17824,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Psx_Phone_Transparent",
-        "path": "Transparent-Touch-Overlays/Phone/PSX/psx_phone_transparent.cfg",
+        "path": "overlays_data/extra/Transparent-Touch-Overlays/Phone/PSX/psx_phone_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Psx_phone_portrait_transparent",
-                "image": "Transparent-Touch-Overlays/Phone/PSX/psx_phone_portrait_transparent.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/PSX/psx_phone_portrait_transparent.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17840,7 +17840,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Transparent-Touch-Overlays/Phone/PSX/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/PSX/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17862,7 +17862,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Transparent-Touch-Overlays/Phone/PSX/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/PSX/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -17876,12 +17876,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Saturn_Transparent",
-        "path": "Transparent-Touch-Overlays/Phone/SATURN/saturn_transparent.cfg",
+        "path": "overlays_data/extra/Transparent-Touch-Overlays/Phone/SATURN/saturn_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Saturn_phone_portrait_transparent",
-                "image": "Transparent-Touch-Overlays/Phone/SATURN/saturn_portrait_transparent.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/SATURN/saturn_portrait_transparent.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17892,7 +17892,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Transparent-Touch-Overlays/Phone/SATURN/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/SATURN/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17914,7 +17914,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Transparent-Touch-Overlays/Phone/SATURN/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/SATURN/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -17925,7 +17925,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Portrait-stick",
-                "image": "Transparent-Touch-Overlays/Phone/SATURN/saturn_portrait_transparent_stick.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/SATURN/saturn_portrait_transparent_stick.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17939,12 +17939,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Snes_Phone_Transparent",
-        "path": "Transparent-Touch-Overlays/Phone/SNES/snes_phone_transparent.cfg",
+        "path": "overlays_data/extra/Transparent-Touch-Overlays/Phone/SNES/snes_phone_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Snes_phone_portrait_transparent",
-                "image": "Transparent-Touch-Overlays/Phone/SNES/snes_phone_portrait_transparent.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/SNES/snes_phone_portrait_transparent.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17955,7 +17955,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Transparent-Touch-Overlays/Phone/SNES/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/SNES/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -17977,7 +17977,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Transparent-Touch-Overlays/Phone/SNES/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/SNES/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -17991,7 +17991,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Universal_Phone",
-        "path": "Transparent-Touch-Overlays/Phone/Universal/universal_phone.cfg",
+        "path": "overlays_data/extra/Transparent-Touch-Overlays/Phone/Universal/universal_phone.cfg",
         "category": "Extras",
         "modes": [
             {
@@ -18007,7 +18007,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Transparent-Touch-Overlays/Phone/Universal/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/Universal/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18029,7 +18029,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Transparent-Touch-Overlays/Phone/Universal/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone/Universal/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -18043,12 +18043,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gb_Portrait_Transparent",
-        "path": "Transparent-Touch-Overlays/Phone-Taller/GB/gb_portrait_transparent.cfg",
+        "path": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/GB/gb_portrait_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Gb_phone_portrait_transparent",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/GB/gb_portrait_transparent.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/GB/gb_portrait_transparent.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18059,7 +18059,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/GB/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/GB/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18081,7 +18081,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/GB/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/GB/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -18095,12 +18095,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gba_Phone_Transparent",
-        "path": "Transparent-Touch-Overlays/Phone-Taller/GBA/gba_phone_transparent.cfg",
+        "path": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/GBA/gba_phone_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Gba_phone_portrait_transparent",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/GBA/gba_phone_portrait_transparent.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/GBA/gba_phone_portrait_transparent.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18111,7 +18111,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/GBA/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/GBA/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18133,7 +18133,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/GBA/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/GBA/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -18147,12 +18147,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Gbc_Phone_Transparent",
-        "path": "Transparent-Touch-Overlays/Phone-Taller/GBC/gbc_phone_transparent.cfg",
+        "path": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/GBC/gbc_phone_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Gbc_phone_portrait_transparent",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/GBC/gbc_phone_portrait_transparent.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/GBC/gbc_phone_portrait_transparent.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18163,7 +18163,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/GBC/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/GBC/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18185,7 +18185,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/GBC/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/GBC/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -18199,12 +18199,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Genesis_Transparent",
-        "path": "Transparent-Touch-Overlays/Phone-Taller/GENESIS/genesis_transparent.cfg",
+        "path": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/GENESIS/genesis_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Genesis_phone_portrait_transparent",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/GENESIS/genesis_portrait_transparent.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/GENESIS/genesis_portrait_transparent.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18215,7 +18215,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/GENESIS/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/GENESIS/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18237,7 +18237,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/GENESIS/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/GENESIS/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -18251,12 +18251,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "N64_Phone_Transparent",
-        "path": "Transparent-Touch-Overlays/Phone-Taller/N64/n64_phone_transparent.cfg",
+        "path": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/N64/n64_phone_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "N64_phone_portrait_transparent",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/N64/n64_phone_portrait_transparent.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/N64/n64_phone_portrait_transparent.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18267,7 +18267,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/N64/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/N64/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18289,7 +18289,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/N64/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/N64/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -18303,12 +18303,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nds_Phone_Transparent",
-        "path": "Transparent-Touch-Overlays/Phone-Taller/NDS/nds_phone_transparent.cfg",
+        "path": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/NDS/nds_phone_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Nds_phone_portrait_transparent",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/NDS/nds_phone_portrait_transparent.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/NDS/nds_phone_portrait_transparent.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18319,7 +18319,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/NDS/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/NDS/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18341,7 +18341,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/NDS/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/NDS/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -18355,12 +18355,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Nes_Phone_Transparent",
-        "path": "Transparent-Touch-Overlays/Phone-Taller/NES/nes_phone_transparent.cfg",
+        "path": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/NES/nes_phone_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Nes_phone_portrait_transparent",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/NES/nes_phone_portrait_transparent.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/NES/nes_phone_portrait_transparent.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18371,7 +18371,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/NES/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/NES/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18393,7 +18393,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/NES/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/NES/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -18407,12 +18407,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Psp_Phone_Transparent",
-        "path": "Transparent-Touch-Overlays/Phone-Taller/PSP/psp_phone_transparent.cfg",
+        "path": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/PSP/psp_phone_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Psp_phone_portrait_transparent",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/PSP/psp_phone_portrait_transparent.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/PSP/psp_phone_portrait_transparent.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18423,7 +18423,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/PSP/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/PSP/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18445,7 +18445,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/PSP/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/PSP/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -18459,12 +18459,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Psx_Phone_Transparent",
-        "path": "Transparent-Touch-Overlays/Phone-Taller/PSX/psx_phone_transparent.cfg",
+        "path": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/PSX/psx_phone_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Psx_phone_portrait_transparent",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/PSX/psx_phone_portrait_transparent.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/PSX/psx_phone_portrait_transparent.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18475,7 +18475,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/PSX/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/PSX/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18497,7 +18497,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/PSX/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/PSX/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -18511,12 +18511,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Saturn_Transparent",
-        "path": "Transparent-Touch-Overlays/Phone-Taller/SATURN/saturn_transparent.cfg",
+        "path": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/SATURN/saturn_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Saturn_phone_portrait_transparent",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/SATURN/saturn_portrait_transparent.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/SATURN/saturn_portrait_transparent.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18527,7 +18527,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/SATURN/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/SATURN/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18549,7 +18549,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/SATURN/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/SATURN/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -18560,7 +18560,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Portrait-stick",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/SATURN/saturn_portrait_transparent_stick.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/SATURN/saturn_portrait_transparent_stick.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18574,12 +18574,12 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Snes_Phone_Transparent",
-        "path": "Transparent-Touch-Overlays/Phone-Taller/SNES/snes_phone_transparent.cfg",
+        "path": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/SNES/snes_phone_transparent.cfg",
         "category": "Extras",
         "modes": [
             {
                 "name": "Snes_phone_portrait_transparent",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/SNES/snes_phone_portrait_transparent.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/SNES/snes_phone_portrait_transparent.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18590,7 +18590,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/SNES/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/SNES/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18612,7 +18612,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/SNES/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/SNES/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,
@@ -18626,7 +18626,7 @@ const OVERLAY_MANIFEST = [
     },
     {
         "name": "Universal_Phone",
-        "path": "Transparent-Touch-Overlays/Phone-Taller/Universal/universal_phone.cfg",
+        "path": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/Universal/universal_phone.cfg",
         "category": "Extras",
         "modes": [
             {
@@ -18642,7 +18642,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_portrait_pause",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/Universal/phone_portrait_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/Universal/phone_portrait_pause.png",
                 "orientation": "portrait",
                 "viewport": {
                     "x": null,
@@ -18664,7 +18664,7 @@ const OVERLAY_MANIFEST = [
             },
             {
                 "name": "Phone_landscape_pause",
-                "image": "Transparent-Touch-Overlays/Phone-Taller/Universal/phone_landscape_pause.png",
+                "image": "overlays_data/extra/Transparent-Touch-Overlays/Phone-Taller/Universal/phone_landscape_pause.png",
                 "orientation": "landscape",
                 "viewport": {
                     "x": null,

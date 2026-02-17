@@ -114,10 +114,11 @@ if __name__ == "__main__":
         exit(1)
 
     for d in target_dirs:
-        path = os.path.join(base_data_dir, d)
-        if os.path.exists(path):
+        # Full path for scanning, e.g. "overlays_data/gamepads"
+        scan_path = os.path.join(base_data_dir, d)
+        if os.path.exists(scan_path):
             print(f"Scanning {d} in {base_data_dir}...")
-            results = scan_overlays(path)
+            results = scan_overlays(scan_path)
             for r in results:
                 # Category based on top-level folder
                 if d == "extra":
@@ -127,13 +128,12 @@ if __name__ == "__main__":
                 else:
                     r["category"] = d.capitalize()
                 
-                # Paths should already be relative to the project root 
-                # because they are descendants of base_data_dir
-                # but let's normalize them to use /
-                r["path"] = r["path"].replace('\\', '/')
+                # Prepend the scan_path to make them relative to project root
+                # scan_path is "overlays_data/gamepads", r["path"] is "flat/file.cfg"
+                r["path"] = os.path.join(scan_path, r["path"]).replace('\\', '/')
                 for mode in r["modes"]:
                     if mode["image"]:
-                        mode["image"] = mode["image"].replace('\\', '/')
+                        mode["image"] = os.path.join(scan_path, mode["image"]).replace('\\', '/')
                 
                 all_results.append(r)
     
