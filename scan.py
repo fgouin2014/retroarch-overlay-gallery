@@ -104,12 +104,42 @@ def scan_overlays(root_dir):
     return overlays
 
 if __name__ == "__main__":
-    base_dir = "."
-    results = scan_overlays(base_dir)
+    # The overlays are accessed via a junction in the project root
+    base_data_dir = "overlays_data"
+    target_dirs = ["gamepads", "extra"]
+    all_results = []
+    
+    if not os.path.exists(base_data_dir):
+        print(f"Erreur: Le dossier (ou junction) {base_data_dir} est introuvable.")
+        exit(1)
+
+    for d in target_dirs:
+        path = os.path.join(base_data_dir, d)
+        if os.path.exists(path):
+            print(f"Scanning {d} in {base_data_dir}...")
+            results = scan_overlays(path)
+            for r in results:
+                # Category based on top-level folder
+                if d == "extra":
+                    r["category"] = "Extras"
+                elif d == "gamepads":
+                    r["category"] = "Gamepads"
+                else:
+                    r["category"] = d.capitalize()
+                
+                # Paths should already be relative to the project root 
+                # because they are descendants of base_data_dir
+                # but let's normalize them to use /
+                r["path"] = r["path"].replace('\\', '/')
+                for mode in r["modes"]:
+                    if mode["image"]:
+                        mode["image"] = mode["image"].replace('\\', '/')
+                
+                all_results.append(r)
     
     # Save as .js for local CORS compatibility
-    js_content = f"const OVERLAY_MANIFEST = {json.dumps(results, indent=4)};"
+    js_content = f"const OVERLAY_MANIFEST = {json.dumps(all_results, indent=4)};"
     with open('manifest.js', 'w', encoding='utf-8') as f:
         f.write(js_content)
     
-    print(f"Scanné {len(results)} fichiers .cfg. Résultat dans manifest.js")
+    print(f"Scanné total de {len(all_results)} fichiers .cfg. Résultat dans manifest.js")
