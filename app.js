@@ -216,6 +216,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Combined with viewport if it exists, or base defaults
             const currentScale = adjustments.zoom / 100;
             const currentOffset = adjustments.offset;
+            const category = activeOverlay.category || 'Standard';
 
             // If we have viewport, we modify it with adjustments
             if (gameBg.style.top) {
@@ -227,17 +228,25 @@ document.addEventListener('DOMContentLoaded', () => {
                 gameBg.style.width = `${parseFloat(gameBg.style.width) * currentScale}%`;
                 gameBg.style.top = `${baseTop + currentOffset}%`;
             } else {
-                // Adjusting the CSS-default position
-                // For portrait, CSS says top: 2%, width: 95%, height: 75%
-                // For landscape, CSS says top: 50%, left: 50%, width: 90%
+                // Category-specific defaults
                 if (orientation === 'portrait') {
-                    gameBg.style.top = `${2 + currentOffset}%`;
+                    if (category === 'Extras') {
+                        // Handheld style (Top-aligned)
+                        gameBg.style.top = `${2 + currentOffset}%`;
+                        gameBg.style.transform = 'translate(-50%, 0)';
+                    } else {
+                        // Standard Gamepad style (Centered)
+                        gameBg.style.top = `${50 + currentOffset}%`;
+                        gameBg.style.transform = 'translate(-50%, -50%)';
+                    }
                     gameBg.style.height = `${75 * currentScale}%`;
                     gameBg.style.width = `${95 * currentScale}%`;
                 } else {
+                    // Landscape is generally centered for everyone
                     gameBg.style.top = `${50 + currentOffset}%`;
                     gameBg.style.height = `${90 * currentScale}%`;
                     gameBg.style.width = `${90 * currentScale}%`;
+                    gameBg.style.transform = 'translate(-50%, -50%)';
                 }
             }
         }
