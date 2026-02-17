@@ -88,9 +88,9 @@ def scan_overlays(root_dir):
 
                     if modes:
                         category = "Standard"
-                        if "extra/Touch-Overlays" in cfg_dir:
+                        if cfg_dir.startswith("extra/"):
                             category = "Extras"
-                        elif "gamepads" in cfg_dir:
+                        elif cfg_dir.startswith("gamepads"):
                             category = "Gamepads"
 
                         overlays.append({
